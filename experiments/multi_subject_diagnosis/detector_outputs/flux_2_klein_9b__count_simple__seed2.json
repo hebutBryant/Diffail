@@ -1,0 +1,21 @@
+{
+  "image": "/home/lipz/Diffail/experiments/multi_subject_diagnosis/results/flux_2_klein_9b/count_simple/seed_2/image.png",
+  "detections": [
+    [
+      137.96209716796875,
+      130.76300048828125,
+      376.19537353515625,
+      384.46807861328125,
+      0.9356437921524048,
+      "apple"
+    ],
+    [
+      2.19342041015625,
+      220.7367401123047,
+      512.0,
+      510.15899658203125,
+      0.21581028401851654,
+      "dining table"
+    ]
+  ]
+}

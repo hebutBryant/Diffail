@@ -1,0 +1,46 @@
+{
+  "model_id": "flux_1_dev2",
+  "model": {
+    "path": "/home/hdd4/lpz/FLUX.1-dev2",
+    "pipeline": "FluxPipeline",
+    "architecture": "12B rectified-flow transformer, CLIP + T5 text encoders, AutoencoderKL",
+    "dtype": "bfloat16",
+    "steps": 8,
+    "guidance": 3.5,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image"
+  },
+  "scenario": {
+    "id": "count_medium",
+    "factor": "object_count",
+    "level": "medium",
+    "control_group": "count",
+    "prompt": "A clean studio photograph of exactly three red apples arranged in a horizontal row on a white table, each apple separate and fully visible, no other fruit.",
+    "objects": [
+      {
+        "class": "apple",
+        "count": 3,
+        "color": "red"
+      }
+    ],
+    "relations": []
+  },
+  "seed": 0,
+  "prompt": "A clean studio photograph of exactly three red apples arranged in a horizontal row on a white table, each apple separate and fully visible, no other fruit.",
+  "call_kwargs": {
+    "prompt": "A clean studio photograph of exactly three red apples arranged in a horizontal row on a white table, each apple separate and fully visible, no other fruit.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x76fca5080630>",
+    "num_inference_steps": 8,
+    "guidance_scale": 3.5,
+    "max_sequence_length": 256
+  },
+  "elapsed_seconds": 37.48,
+  "image_sha256": "024930ea6afd127e4e3a486172b62e271ed1011124e756ee289b4f3a1a7abdde",
+  "created_utc": "2026-11-12T08:24:46Z"
+}

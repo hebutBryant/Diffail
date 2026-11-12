@@ -1,0 +1,74 @@
+{
+  "model_id": "flux_2_klein_9b",
+  "model": {
+    "path": "/home/hdd4/lpz/FLUX.2-klein-9B",
+    "requested_path": "/home/hdd4/lpz/FLUX.2-klein",
+    "pipeline": "Flux2KleinPipeline",
+    "architecture": "9B distilled rectified-flow transformer, Qwen3 causal text encoder, AutoencoderKLFlux2",
+    "dtype": "bfloat16",
+    "steps": 4,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image and image-to-image/multi-reference editing",
+    "note": "Requested directory was absent; this complete local FLUX.2-klein-9B directory is used as a same-family fallback."
+  },
+  "scenario": {
+    "id": "prior_medium",
+    "factor": "compositional_prior",
+    "level": "medium",
+    "control_group": "prior",
+    "prompt": "A realistic photograph of a person sitting on a wooden chair beside a dog and a bicycle in a park; all three subjects are distinct and visible.",
+    "objects": [
+      {
+        "class": "person",
+        "count": 1
+      },
+      {
+        "class": "chair",
+        "count": 1
+      },
+      {
+        "class": "dog",
+        "count": 1
+      },
+      {
+        "class": "bicycle",
+        "count": 1
+      }
+    ],
+    "relations": [
+      {
+        "a": "person",
+        "relation": "sitting_on",
+        "b": "chair"
+      },
+      {
+        "a": "dog",
+        "relation": "beside",
+        "b": "chair"
+      },
+      {
+        "a": "bicycle",
+        "relation": "beside",
+        "b": "chair"
+      }
+    ]
+  },
+  "seed": 2,
+  "prompt": "A realistic photograph of a person sitting on a wooden chair beside a dog and a bicycle in a park; all three subjects are distinct and visible.",
+  "call_kwargs": {
+    "prompt": "A realistic photograph of a person sitting on a wooden chair beside a dog and a bicycle in a park; all three subjects are distinct and visible.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x755beef095d0>",
+    "num_inference_steps": 4,
+    "guidance_scale": 1.0
+  },
+  "elapsed_seconds": 32.569,
+  "image_sha256": "141a67acdfcefda65d5a40dc18ba19aa5e2a2ca1329b1d223892e5edaf4ca8e8",
+  "created_utc": "2026-11-12T08:04:24Z"
+}

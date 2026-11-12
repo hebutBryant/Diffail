@@ -1,0 +1,21 @@
+{
+  "image": "/home/lipz/Diffail/experiments/multi_subject_diagnosis/results/qwen_image_2_1/spatial_medium/seed_1/image.png",
+  "detections": [
+    [
+      39.35400390625,
+      234.39894104003906,
+      197.82147216796875,
+      396.03955078125,
+      0.9582961201667786,
+      "apple"
+    ],
+    [
+      260.690185546875,
+      238.10543823242188,
+      437.01055908203125,
+      397.8752746582031,
+      0.76837557554245,
+      "cup"
+    ]
+  ]
+}

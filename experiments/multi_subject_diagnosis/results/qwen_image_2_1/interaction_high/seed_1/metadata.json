@@ -1,0 +1,72 @@
+{
+  "model_id": "qwen_image_2_1",
+  "model": {
+    "path": "/home/hdd4/lpz/Qwen-Image-2.1",
+    "pipeline": "QwenImage21Pipeline",
+    "architecture": "7B single-stream DiT, Qwen3-VL text encoder, FlowMatchEulerDiscreteScheduler, VAE",
+    "dtype": "bfloat16",
+    "steps": 8,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image; also supports editing/RGBA but those are excluded here"
+  },
+  "scenario": {
+    "id": "interaction_high",
+    "factor": "geometric_interaction",
+    "level": "high",
+    "control_group": "interaction",
+    "prompt": "A realistic photograph of a woman holding a red umbrella over a child while the child holds a blue book; the woman, child, umbrella, and book are distinct, hands make physically plausible contact, and the umbrella is above both people.",
+    "objects": [
+      {
+        "class": "person",
+        "count": 2
+      },
+      {
+        "class": "umbrella",
+        "count": 1,
+        "color": "red"
+      },
+      {
+        "class": "book",
+        "count": 1,
+        "color": "blue"
+      }
+    ],
+    "relations": [
+      {
+        "a": "woman",
+        "relation": "holding_over",
+        "b": "child"
+      },
+      {
+        "a": "child",
+        "relation": "holding",
+        "b": "book"
+      },
+      {
+        "a": "umbrella",
+        "relation": "above",
+        "b": "child"
+      }
+    ]
+  },
+  "seed": 1,
+  "prompt": "A realistic photograph of a woman holding a red umbrella over a child while the child holds a blue book; the woman, child, umbrella, and book are distinct, hands make physically plausible contact, and the umbrella is above both people.",
+  "call_kwargs": {
+    "prompt": "A realistic photograph of a woman holding a red umbrella over a child while the child holds a blue book; the woman, child, umbrella, and book are distinct, hands make physically plausible contact, and the umbrella is above both people.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x7bb0d319fd30>",
+    "output_resolution": 512,
+    "num_inference_steps": 8,
+    "true_cfg_scale": 1.0,
+    "use_kv_cache": true
+  },
+  "elapsed_seconds": 28.124,
+  "image_sha256": "6bd2f531100b69781ef02dfbb351a2e4bcdf52ed5962e15234ac6e6a48b59a0c",
+  "created_utc": "2026-11-12T07:32:20Z"
+}

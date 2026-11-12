@@ -1,0 +1,78 @@
+{
+  "model_id": "qwen_image_2_1",
+  "model": {
+    "path": "/home/hdd4/lpz/Qwen-Image-2.1",
+    "pipeline": "QwenImage21Pipeline",
+    "architecture": "7B single-stream DiT, Qwen3-VL text encoder, FlowMatchEulerDiscreteScheduler, VAE",
+    "dtype": "bfloat16",
+    "steps": 8,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image; also supports editing/RGBA but those are excluded here"
+  },
+  "scenario": {
+    "id": "prior_high",
+    "factor": "compositional_prior",
+    "level": "high",
+    "control_group": "prior",
+    "prompt": "A surreal but physically coherent photograph of a teddy bear riding a bicycle while a cat sits on a skateboard beside it and a bird perches on the bicycle handlebar; every animal, vehicle, and board is separate and visible.",
+    "objects": [
+      {
+        "class": "teddy bear",
+        "count": 1
+      },
+      {
+        "class": "bicycle",
+        "count": 1
+      },
+      {
+        "class": "cat",
+        "count": 1
+      },
+      {
+        "class": "skateboard",
+        "count": 1
+      },
+      {
+        "class": "bird",
+        "count": 1
+      }
+    ],
+    "relations": [
+      {
+        "a": "teddy bear",
+        "relation": "riding",
+        "b": "bicycle"
+      },
+      {
+        "a": "cat",
+        "relation": "sitting_on",
+        "b": "skateboard"
+      },
+      {
+        "a": "bird",
+        "relation": "on",
+        "b": "bicycle"
+      }
+    ]
+  },
+  "seed": 2,
+  "prompt": "A surreal but physically coherent photograph of a teddy bear riding a bicycle while a cat sits on a skateboard beside it and a bird perches on the bicycle handlebar; every animal, vehicle, and board is separate and visible.",
+  "call_kwargs": {
+    "prompt": "A surreal but physically coherent photograph of a teddy bear riding a bicycle while a cat sits on a skateboard beside it and a bird perches on the bicycle handlebar; every animal, vehicle, and board is separate and visible.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x7bb0d30a4d10>",
+    "output_resolution": 512,
+    "num_inference_steps": 8,
+    "true_cfg_scale": 1.0,
+    "use_kv_cache": true
+  },
+  "elapsed_seconds": 31.238,
+  "image_sha256": "93ad59cbc5b7a24356cfce8e427ce1aceda53983ce351f0462980d94224c0771",
+  "created_utc": "2026-11-12T07:37:06Z"
+}

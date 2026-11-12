@@ -1,0 +1,62 @@
+{
+  "model_id": "qwen_image_2_1",
+  "model": {
+    "path": "/home/hdd4/lpz/Qwen-Image-2.1",
+    "pipeline": "QwenImage21Pipeline",
+    "architecture": "7B single-stream DiT, Qwen3-VL text encoder, FlowMatchEulerDiscreteScheduler, VAE",
+    "dtype": "bfloat16",
+    "steps": 8,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image; also supports editing/RGBA but those are excluded here"
+  },
+  "scenario": {
+    "id": "interaction_medium",
+    "factor": "geometric_interaction",
+    "level": "medium",
+    "control_group": "interaction",
+    "prompt": "A realistic photograph of one person handing a blue book to a second person; both people are visible, their hands visibly meet the book, and the book is not floating.",
+    "objects": [
+      {
+        "class": "person",
+        "count": 2
+      },
+      {
+        "class": "book",
+        "count": 1,
+        "color": "blue"
+      }
+    ],
+    "relations": [
+      {
+        "a": "person_1",
+        "relation": "handing",
+        "b": "book"
+      },
+      {
+        "a": "book",
+        "relation": "toward",
+        "b": "person_2"
+      }
+    ]
+  },
+  "seed": 1,
+  "prompt": "A realistic photograph of one person handing a blue book to a second person; both people are visible, their hands visibly meet the book, and the book is not floating.",
+  "call_kwargs": {
+    "prompt": "A realistic photograph of one person handing a blue book to a second person; both people are visible, their hands visibly meet the book, and the book is not floating.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x7bb0d319fcd0>",
+    "output_resolution": 512,
+    "num_inference_steps": 8,
+    "true_cfg_scale": 1.0,
+    "use_kv_cache": true
+  },
+  "elapsed_seconds": 27.24,
+  "image_sha256": "7e19b5e64675fc6d737891061476586a01a80d0eab685489799f566b727cdd1a",
+  "created_utc": "2026-11-12T07:30:57Z"
+}

@@ -1,0 +1,52 @@
+{
+  "model_id": "flux_2_klein_9b",
+  "model": {
+    "path": "/home/hdd4/lpz/FLUX.2-klein-9B",
+    "requested_path": "/home/hdd4/lpz/FLUX.2-klein",
+    "pipeline": "Flux2KleinPipeline",
+    "architecture": "9B distilled rectified-flow transformer, Qwen3 causal text encoder, AutoencoderKLFlux2",
+    "dtype": "bfloat16",
+    "steps": 4,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image and image-to-image/multi-reference editing",
+    "note": "Requested directory was absent; this complete local FLUX.2-klein-9B directory is used as a same-family fallback."
+  },
+  "scenario": {
+    "id": "attr_simple",
+    "factor": "attribute_binding",
+    "level": "simple",
+    "control_group": "attribute",
+    "prompt": "A clean studio photograph of one red apple and one blue banana on a white table, both fully visible and separate; the apple is red and the banana is blue.",
+    "objects": [
+      {
+        "class": "apple",
+        "count": 1,
+        "color": "red"
+      },
+      {
+        "class": "banana",
+        "count": 1,
+        "color": "blue"
+      }
+    ],
+    "relations": []
+  },
+  "seed": 0,
+  "prompt": "A clean studio photograph of one red apple and one blue banana on a white table, both fully visible and separate; the apple is red and the banana is blue.",
+  "call_kwargs": {
+    "prompt": "A clean studio photograph of one red apple and one blue banana on a white table, both fully visible and separate; the apple is red and the banana is blue.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x755beef095d0>",
+    "num_inference_steps": 4,
+    "guidance_scale": 1.0
+  },
+  "elapsed_seconds": 34.526,
+  "image_sha256": "cf659a5a2b4ac733b8a35b85b16ca1fac3664f14592baf2f3d49feb0e5be9d1b",
+  "created_utc": "2026-11-12T07:47:55Z"
+}

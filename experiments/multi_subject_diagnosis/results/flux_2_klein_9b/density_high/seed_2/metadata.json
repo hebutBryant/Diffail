@@ -1,0 +1,67 @@
+{
+  "model_id": "flux_2_klein_9b",
+  "model": {
+    "path": "/home/hdd4/lpz/FLUX.2-klein-9B",
+    "requested_path": "/home/hdd4/lpz/FLUX.2-klein",
+    "pipeline": "Flux2KleinPipeline",
+    "architecture": "9B distilled rectified-flow transformer, Qwen3 causal text encoder, AutoencoderKLFlux2",
+    "dtype": "bfloat16",
+    "steps": 4,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image and image-to-image/multi-reference editing",
+    "note": "Requested directory was absent; this complete local FLUX.2-klein-9B directory is used as a same-family fallback."
+  },
+  "scenario": {
+    "id": "density_high",
+    "factor": "scene_density",
+    "level": "high",
+    "control_group": "density",
+    "prompt": "A clean studio photograph of five distinct objects—a red apple, blue cup, green book, yellow banana, and purple backpack—packed tightly on a small table with partial occlusions and different sizes; preserve all five identities.",
+    "objects": [
+      {
+        "class": "apple",
+        "count": 1,
+        "color": "red"
+      },
+      {
+        "class": "cup",
+        "count": 1,
+        "color": "blue"
+      },
+      {
+        "class": "book",
+        "count": 1,
+        "color": "green"
+      },
+      {
+        "class": "banana",
+        "count": 1,
+        "color": "yellow"
+      },
+      {
+        "class": "backpack",
+        "count": 1,
+        "color": "purple"
+      }
+    ],
+    "relations": []
+  },
+  "seed": 2,
+  "prompt": "A clean studio photograph of five distinct objects—a red apple, blue cup, green book, yellow banana, and purple backpack—packed tightly on a small table with partial occlusions and different sizes; preserve all five identities.",
+  "call_kwargs": {
+    "prompt": "A clean studio photograph of five distinct objects—a red apple, blue cup, green book, yellow banana, and purple backpack—packed tightly on a small table with partial occlusions and different sizes; preserve all five identities.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x755beef095d0>",
+    "num_inference_steps": 4,
+    "guidance_scale": 1.0
+  },
+  "elapsed_seconds": 29.068,
+  "image_sha256": "5f2ebb650821022bd88c6f9c2d13566df893a885143a01e618bbdfde93c3ba6b",
+  "created_utc": "2026-11-12T08:10:32Z"
+}

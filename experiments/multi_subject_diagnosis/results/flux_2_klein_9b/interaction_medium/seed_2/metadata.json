@@ -1,0 +1,62 @@
+{
+  "model_id": "flux_2_klein_9b",
+  "model": {
+    "path": "/home/hdd4/lpz/FLUX.2-klein-9B",
+    "requested_path": "/home/hdd4/lpz/FLUX.2-klein",
+    "pipeline": "Flux2KleinPipeline",
+    "architecture": "9B distilled rectified-flow transformer, Qwen3 causal text encoder, AutoencoderKLFlux2",
+    "dtype": "bfloat16",
+    "steps": 4,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image and image-to-image/multi-reference editing",
+    "note": "Requested directory was absent; this complete local FLUX.2-klein-9B directory is used as a same-family fallback."
+  },
+  "scenario": {
+    "id": "interaction_medium",
+    "factor": "geometric_interaction",
+    "level": "medium",
+    "control_group": "interaction",
+    "prompt": "A realistic photograph of one person handing a blue book to a second person; both people are visible, their hands visibly meet the book, and the book is not floating.",
+    "objects": [
+      {
+        "class": "person",
+        "count": 2
+      },
+      {
+        "class": "book",
+        "count": 1,
+        "color": "blue"
+      }
+    ],
+    "relations": [
+      {
+        "a": "person_1",
+        "relation": "handing",
+        "b": "book"
+      },
+      {
+        "a": "book",
+        "relation": "toward",
+        "b": "person_2"
+      }
+    ]
+  },
+  "seed": 2,
+  "prompt": "A realistic photograph of one person handing a blue book to a second person; both people are visible, their hands visibly meet the book, and the book is not floating.",
+  "call_kwargs": {
+    "prompt": "A realistic photograph of one person handing a blue book to a second person; both people are visible, their hands visibly meet the book, and the book is not floating.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x755b1ab39e10>",
+    "num_inference_steps": 4,
+    "guidance_scale": 1.0
+  },
+  "elapsed_seconds": 30.857,
+  "image_sha256": "f4af843fe6dd31abd3aa489480873a485e9c802993bfdf6a96d315b721986365",
+  "created_utc": "2026-11-12T07:59:44Z"
+}

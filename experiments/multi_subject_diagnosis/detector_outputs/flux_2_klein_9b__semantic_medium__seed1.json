@@ -1,0 +1,21 @@
+{
+  "image": "/home/lipz/Diffail/experiments/multi_subject_diagnosis/results/flux_2_klein_9b/semantic_medium/seed_1/image.png",
+  "detections": [
+    [
+      258.37322998046875,
+      255.2475128173828,
+      483.27362060546875,
+      451.25604248046875,
+      0.976306140422821,
+      "cup"
+    ],
+    [
+      52.52899169921875,
+      266.2081298828125,
+      217.90811157226562,
+      449.9716796875,
+      0.9442340135574341,
+      "apple"
+    ]
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "image": "/home/lipz/Diffail/experiments/multi_subject_diagnosis/results/qwen_image_2_1/density_simple/seed_0/image.png",
+  "detections": [
+    [
+      398.9515380859375,
+      263.90887451171875,
+      433.82965087890625,
+      307.40765380859375,
+      0.9113610982894897,
+      "cup"
+    ],
+    [
+      63.72124099731445,
+      280.1446533203125,
+      94.40174865722656,
+      315.84423828125,
+      0.26448896527290344,
+      "sports ball"
+    ]
+  ]
+}

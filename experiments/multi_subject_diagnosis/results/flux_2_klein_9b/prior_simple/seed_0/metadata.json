@@ -1,0 +1,56 @@
+{
+  "model_id": "flux_2_klein_9b",
+  "model": {
+    "path": "/home/hdd4/lpz/FLUX.2-klein-9B",
+    "requested_path": "/home/hdd4/lpz/FLUX.2-klein",
+    "pipeline": "Flux2KleinPipeline",
+    "architecture": "9B distilled rectified-flow transformer, Qwen3 causal text encoder, AutoencoderKLFlux2",
+    "dtype": "bfloat16",
+    "steps": 4,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image and image-to-image/multi-reference editing",
+    "note": "Requested directory was absent; this complete local FLUX.2-klein-9B directory is used as a same-family fallback."
+  },
+  "scenario": {
+    "id": "prior_simple",
+    "factor": "compositional_prior",
+    "level": "simple",
+    "control_group": "prior",
+    "prompt": "A realistic photograph of a person riding a bicycle on a city street, a common everyday scene.",
+    "objects": [
+      {
+        "class": "person",
+        "count": 1
+      },
+      {
+        "class": "bicycle",
+        "count": 1
+      }
+    ],
+    "relations": [
+      {
+        "a": "person",
+        "relation": "riding",
+        "b": "bicycle"
+      }
+    ]
+  },
+  "seed": 0,
+  "prompt": "A realistic photograph of a person riding a bicycle on a city street, a common everyday scene.",
+  "call_kwargs": {
+    "prompt": "A realistic photograph of a person riding a bicycle on a city street, a common everyday scene.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x755b1ab39e10>",
+    "num_inference_steps": 4,
+    "guidance_scale": 1.0
+  },
+  "elapsed_seconds": 32.574,
+  "image_sha256": "d44a39e1995bfc32ec4a60e52b3ee81c07ad7c681bbaa9fcaf55e91f3bb203cd",
+  "created_utc": "2026-11-12T08:01:50Z"
+}

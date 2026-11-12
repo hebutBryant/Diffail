@@ -1,0 +1,66 @@
+{
+  "model_id": "flux_1_dev2",
+  "model": {
+    "path": "/home/hdd4/lpz/FLUX.1-dev2",
+    "pipeline": "FluxPipeline",
+    "architecture": "12B rectified-flow transformer, CLIP + T5 text encoders, AutoencoderKL",
+    "dtype": "bfloat16",
+    "steps": 8,
+    "guidance": 3.5,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image"
+  },
+  "scenario": {
+    "id": "density_high",
+    "factor": "scene_density",
+    "level": "high",
+    "control_group": "density",
+    "prompt": "A clean studio photograph of five distinct objects—a red apple, blue cup, green book, yellow banana, and purple backpack—packed tightly on a small table with partial occlusions and different sizes; preserve all five identities.",
+    "objects": [
+      {
+        "class": "apple",
+        "count": 1,
+        "color": "red"
+      },
+      {
+        "class": "cup",
+        "count": 1,
+        "color": "blue"
+      },
+      {
+        "class": "book",
+        "count": 1,
+        "color": "green"
+      },
+      {
+        "class": "banana",
+        "count": 1,
+        "color": "yellow"
+      },
+      {
+        "class": "backpack",
+        "count": 1,
+        "color": "purple"
+      }
+    ],
+    "relations": []
+  },
+  "seed": 0,
+  "prompt": "A clean studio photograph of five distinct objects—a red apple, blue cup, green book, yellow banana, and purple backpack—packed tightly on a small table with partial occlusions and different sizes; preserve all five identities.",
+  "call_kwargs": {
+    "prompt": "A clean studio photograph of five distinct objects—a red apple, blue cup, green book, yellow banana, and purple backpack—packed tightly on a small table with partial occlusions and different sizes; preserve all five identities.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x71127ae766f0>",
+    "num_inference_steps": 8,
+    "guidance_scale": 3.5,
+    "max_sequence_length": 256
+  },
+  "elapsed_seconds": 36.399,
+  "image_sha256": "a7f716f0265199770d22590e9442aee2521ef7a4dd731df7a415365f1d346270",
+  "created_utc": "2026-11-12T08:30:25Z"
+}

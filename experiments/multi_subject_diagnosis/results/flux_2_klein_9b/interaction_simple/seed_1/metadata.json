@@ -1,0 +1,57 @@
+{
+  "model_id": "flux_2_klein_9b",
+  "model": {
+    "path": "/home/hdd4/lpz/FLUX.2-klein-9B",
+    "requested_path": "/home/hdd4/lpz/FLUX.2-klein",
+    "pipeline": "Flux2KleinPipeline",
+    "architecture": "9B distilled rectified-flow transformer, Qwen3 causal text encoder, AutoencoderKLFlux2",
+    "dtype": "bfloat16",
+    "steps": 4,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image and image-to-image/multi-reference editing",
+    "note": "Requested directory was absent; this complete local FLUX.2-klein-9B directory is used as a same-family fallback."
+  },
+  "scenario": {
+    "id": "interaction_simple",
+    "factor": "geometric_interaction",
+    "level": "simple",
+    "control_group": "interaction",
+    "prompt": "A realistic photograph of one person holding a red umbrella in an outdoor park, with the person's hand visibly gripping the umbrella handle.",
+    "objects": [
+      {
+        "class": "person",
+        "count": 1
+      },
+      {
+        "class": "umbrella",
+        "count": 1,
+        "color": "red"
+      }
+    ],
+    "relations": [
+      {
+        "a": "person",
+        "relation": "holding",
+        "b": "umbrella"
+      }
+    ]
+  },
+  "seed": 1,
+  "prompt": "A realistic photograph of one person holding a red umbrella in an outdoor park, with the person's hand visibly gripping the umbrella handle.",
+  "call_kwargs": {
+    "prompt": "A realistic photograph of one person holding a red umbrella in an outdoor park, with the person's hand visibly gripping the umbrella handle.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x755b1ab3a610>",
+    "num_inference_steps": 4,
+    "guidance_scale": 1.0
+  },
+  "elapsed_seconds": 28.668,
+  "image_sha256": "1ffd2b79f62f42a731dd5b62ab29307ed5b7be58b11867f9e5f5d4a73f2d7fc8",
+  "created_utc": "2026-11-12T07:57:43Z"
+}

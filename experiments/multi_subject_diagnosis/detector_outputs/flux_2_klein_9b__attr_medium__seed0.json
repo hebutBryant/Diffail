@@ -1,0 +1,21 @@
+{
+  "image": "/home/lipz/Diffail/experiments/multi_subject_diagnosis/results/flux_2_klein_9b/attr_medium/seed_0/image.png",
+  "detections": [
+    [
+      59.385711669921875,
+      311.8525390625,
+      150.44911193847656,
+      407.1954345703125,
+      0.952548623085022,
+      "apple"
+    ],
+    [
+      219.43336486816406,
+      46.390045166015625,
+      476.5032958984375,
+      387.6668701171875,
+      0.7988042831420898,
+      "suitcase"
+    ]
+  ]
+}

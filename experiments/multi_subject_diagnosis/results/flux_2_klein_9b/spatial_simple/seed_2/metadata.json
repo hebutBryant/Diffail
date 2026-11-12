@@ -1,0 +1,58 @@
+{
+  "model_id": "flux_2_klein_9b",
+  "model": {
+    "path": "/home/hdd4/lpz/FLUX.2-klein-9B",
+    "requested_path": "/home/hdd4/lpz/FLUX.2-klein",
+    "pipeline": "Flux2KleinPipeline",
+    "architecture": "9B distilled rectified-flow transformer, Qwen3 causal text encoder, AutoencoderKLFlux2",
+    "dtype": "bfloat16",
+    "steps": 4,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image and image-to-image/multi-reference editing",
+    "note": "Requested directory was absent; this complete local FLUX.2-klein-9B directory is used as a same-family fallback."
+  },
+  "scenario": {
+    "id": "spatial_simple",
+    "factor": "spatial_relations",
+    "level": "simple",
+    "control_group": "spatial",
+    "prompt": "A clean studio photograph of a red apple on the left of a blue cup on a white table; both objects are separate and fully visible.",
+    "objects": [
+      {
+        "class": "apple",
+        "count": 1,
+        "color": "red"
+      },
+      {
+        "class": "cup",
+        "count": 1,
+        "color": "blue"
+      }
+    ],
+    "relations": [
+      {
+        "a": "apple",
+        "relation": "left_of",
+        "b": "cup"
+      }
+    ]
+  },
+  "seed": 2,
+  "prompt": "A clean studio photograph of a red apple on the left of a blue cup on a white table; both objects are separate and fully visible.",
+  "call_kwargs": {
+    "prompt": "A clean studio photograph of a red apple on the left of a blue cup on a white table; both objects are separate and fully visible.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x755b1ab3a130>",
+    "num_inference_steps": 4,
+    "guidance_scale": 1.0
+  },
+  "elapsed_seconds": 29.978,
+  "image_sha256": "355041df84ed7baa7d244951e582ef4a8fa20d042da078a9aa70937264c22a2d",
+  "created_utc": "2026-11-12T07:53:40Z"
+}

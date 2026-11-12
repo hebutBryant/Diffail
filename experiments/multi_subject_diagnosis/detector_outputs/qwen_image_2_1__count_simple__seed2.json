@@ -1,0 +1,13 @@
+{
+  "image": "/home/lipz/Diffail/experiments/multi_subject_diagnosis/results/qwen_image_2_1/count_simple/seed_2/image.png",
+  "detections": [
+    [
+      121.7059326171875,
+      115.01806640625,
+      396.86480712890625,
+      409.7213134765625,
+      0.9432312250137329,
+      "apple"
+    ]
+  ]
+}

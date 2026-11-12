@@ -1,0 +1,58 @@
+{
+  "model_id": "qwen_image_2_1",
+  "model": {
+    "path": "/home/hdd4/lpz/Qwen-Image-2.1",
+    "pipeline": "QwenImage21Pipeline",
+    "architecture": "7B single-stream DiT, Qwen3-VL text encoder, FlowMatchEulerDiscreteScheduler, VAE",
+    "dtype": "bfloat16",
+    "steps": 8,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image; also supports editing/RGBA but those are excluded here"
+  },
+  "scenario": {
+    "id": "spatial_simple",
+    "factor": "spatial_relations",
+    "level": "simple",
+    "control_group": "spatial",
+    "prompt": "A clean studio photograph of a red apple on the left of a blue cup on a white table; both objects are separate and fully visible.",
+    "objects": [
+      {
+        "class": "apple",
+        "count": 1,
+        "color": "red"
+      },
+      {
+        "class": "cup",
+        "count": 1,
+        "color": "blue"
+      }
+    ],
+    "relations": [
+      {
+        "a": "apple",
+        "relation": "left_of",
+        "b": "cup"
+      }
+    ]
+  },
+  "seed": 0,
+  "prompt": "A clean studio photograph of a red apple on the left of a blue cup on a white table; both objects are separate and fully visible.",
+  "call_kwargs": {
+    "prompt": "A clean studio photograph of a red apple on the left of a blue cup on a white table; both objects are separate and fully visible.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x7bb0d319fdb0>",
+    "output_resolution": 512,
+    "num_inference_steps": 8,
+    "true_cfg_scale": 1.0,
+    "use_kv_cache": true
+  },
+  "elapsed_seconds": 27.421,
+  "image_sha256": "12d71635eab2eac3a4004ae09418c990f7639d58bf56c24e1812fad4b3b3658a",
+  "created_utc": "2026-11-12T07:25:04Z"
+}

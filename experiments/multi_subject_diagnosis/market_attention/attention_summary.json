@@ -1,0 +1,6649 @@
+{
+  "definition": "image_mass is the sum of full-softmax attention from group text tokens to image patches; concentration is 1-normalized entropy; peak coordinates are 32x32 image-token grid",
+  "groups": {
+    "vendor": [
+      {
+        "step": 0,
+        "image_mass": 0.36685909020889085,
+        "concentration": 0.019316240394081086,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.0064822351559996605
+      },
+      {
+        "step": 1,
+        "image_mass": 0.4239737673779018,
+        "concentration": 0.04250033455474167,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.018828433007001877
+      },
+      {
+        "step": 2,
+        "image_mass": 0.4500398074014811,
+        "concentration": 0.05040346188954492,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.014500157907605171
+      },
+      {
+        "step": 3,
+        "image_mass": 0.4548476974014193,
+        "concentration": 0.04677337573446105,
+        "peak_xy_patch": [
+          26,
+          4
+        ],
+        "peak_value": 0.013480018824338913
+      },
+      {
+        "step": 4,
+        "image_mass": 0.4644546850613551,
+        "concentration": 0.046259159801765315,
+        "peak_xy_patch": [
+          26,
+          4
+        ],
+        "peak_value": 0.015054194256663322
+      },
+      {
+        "step": 5,
+        "image_mass": 0.47221660874492954,
+        "concentration": 0.04789126985116088,
+        "peak_xy_patch": [
+          28,
+          1
+        ],
+        "peak_value": 0.013875089585781097
+      },
+      {
+        "step": 6,
+        "image_mass": 0.4796391549753025,
+        "concentration": 0.04836903173358187,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014497671276330948
+      },
+      {
+        "step": 7,
+        "image_mass": 0.4839277886057971,
+        "concentration": 0.04681617500430024,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014840948395431042
+      },
+      {
+        "step": 8,
+        "image_mass": 0.49441304319771007,
+        "concentration": 0.045557192262818624,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01321698073297739
+      },
+      {
+        "step": 9,
+        "image_mass": 0.4950486932939384,
+        "concentration": 0.044963444735293345,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012725328095257282
+      },
+      {
+        "step": 10,
+        "image_mass": 0.4956393894244684,
+        "concentration": 0.047011631891803796,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012134167365729809
+      },
+      {
+        "step": 11,
+        "image_mass": 0.4899620289361337,
+        "concentration": 0.047905653437872675,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012142304331064224
+      },
+      {
+        "step": 12,
+        "image_mass": 0.48153765372990165,
+        "concentration": 0.05181352849844678,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01158521044999361
+      },
+      {
+        "step": 13,
+        "image_mass": 0.46944823206285946,
+        "concentration": 0.04809196199679122,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011675641871988773
+      },
+      {
+        "step": 14,
+        "image_mass": 0.4663933439151151,
+        "concentration": 0.04619067744676808,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011797962710261345
+      },
+      {
+        "step": 15,
+        "image_mass": 0.46133712225127965,
+        "concentration": 0.04461700311687056,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011854883283376694
+      },
+      {
+        "step": 16,
+        "image_mass": 0.4651390306826215,
+        "concentration": 0.04421071107672658,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010688720270991325
+      },
+      {
+        "step": 17,
+        "image_mass": 0.45752468513092026,
+        "concentration": 0.04099778032345058,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.011940749362111092
+      },
+      {
+        "step": 18,
+        "image_mass": 0.4549506768817082,
+        "concentration": 0.04058394864392667,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.011571784503757954
+      },
+      {
+        "step": 19,
+        "image_mass": 0.45708602051308844,
+        "concentration": 0.040417261690312345,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.010428288951516151
+      },
+      {
+        "step": 20,
+        "image_mass": 0.4596072486747289,
+        "concentration": 0.04026406061818011,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009890217334032059
+      },
+      {
+        "step": 21,
+        "image_mass": 0.46249823029211257,
+        "concentration": 0.039524740432624106,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009989015758037567
+      },
+      {
+        "step": 22,
+        "image_mass": 0.4579432969476329,
+        "concentration": 0.037778411356021446,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010182094760239124
+      },
+      {
+        "step": 23,
+        "image_mass": 0.45751538311014883,
+        "concentration": 0.03574622770531766,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010574803687632084
+      },
+      {
+        "step": 24,
+        "image_mass": 0.4577342789125396,
+        "concentration": 0.03523346838508634,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010344037786126137
+      },
+      {
+        "step": 25,
+        "image_mass": 0.4587205351126613,
+        "concentration": 0.03419672927019646,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010229542851448059
+      },
+      {
+        "step": 26,
+        "image_mass": 0.4628069833124755,
+        "concentration": 0.03331178233815468,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.00989947747439146
+      },
+      {
+        "step": 27,
+        "image_mass": 0.459329076053109,
+        "concentration": 0.03183662762362227,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009727965109050274
+      },
+      {
+        "step": 28,
+        "image_mass": 0.4626424947200576,
+        "concentration": 0.03074556090553815,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.008549418300390244
+      },
+      {
+        "step": 29,
+        "image_mass": 0.45876792722265236,
+        "concentration": 0.024831438309639298,
+        "peak_xy_patch": [
+          31,
+          29
+        ],
+        "peak_value": 0.005844037979841232
+      }
+    ],
+    "yellow_apron": [
+      {
+        "step": 0,
+        "image_mass": 0.3885261758114211,
+        "concentration": 0.01665976315537876,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.006315392907708883
+      },
+      {
+        "step": 1,
+        "image_mass": 0.42617582106322516,
+        "concentration": 0.03914922278092914,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.017315933480858803
+      },
+      {
+        "step": 2,
+        "image_mass": 0.4491387785819825,
+        "concentration": 0.04616510274665797,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.013524404726922512
+      },
+      {
+        "step": 3,
+        "image_mass": 0.4476123685890343,
+        "concentration": 0.04472679217547648,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.012526530772447586
+      },
+      {
+        "step": 4,
+        "image_mass": 0.45387164258863777,
+        "concentration": 0.044617864490457904,
+        "peak_xy_patch": [
+          26,
+          4
+        ],
+        "peak_value": 0.014058735221624374
+      },
+      {
+        "step": 5,
+        "image_mass": 0.4580765565187903,
+        "concentration": 0.04795563800373526,
+        "peak_xy_patch": [
+          28,
+          1
+        ],
+        "peak_value": 0.013273496180772781
+      },
+      {
+        "step": 6,
+        "image_mass": 0.46420932188630104,
+        "concentration": 0.049066005058515216,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01429369580000639
+      },
+      {
+        "step": 7,
+        "image_mass": 0.4703740485711023,
+        "concentration": 0.04780356798286001,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014967270195484161
+      },
+      {
+        "step": 8,
+        "image_mass": 0.4819456737022847,
+        "concentration": 0.05060807742976414,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013506763614714146
+      },
+      {
+        "step": 9,
+        "image_mass": 0.48059856609324925,
+        "concentration": 0.05160622082527111,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013112936168909073
+      },
+      {
+        "step": 10,
+        "image_mass": 0.4846929773775628,
+        "concentration": 0.05289600254107396,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012485331855714321
+      },
+      {
+        "step": 11,
+        "image_mass": 0.4822987945517525,
+        "concentration": 0.05410073426416517,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01239718496799469
+      },
+      {
+        "step": 12,
+        "image_mass": 0.48827801406150684,
+        "concentration": 0.05449757234014463,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011713716201484203
+      },
+      {
+        "step": 13,
+        "image_mass": 0.48897795379161835,
+        "concentration": 0.05430473661028912,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011440950445830822
+      },
+      {
+        "step": 14,
+        "image_mass": 0.4891233903908869,
+        "concentration": 0.05228926911680243,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01157067995518446
+      },
+      {
+        "step": 15,
+        "image_mass": 0.4839207488694228,
+        "concentration": 0.0524446573670202,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01170025859028101
+      },
+      {
+        "step": 16,
+        "image_mass": 0.4867184715985786,
+        "concentration": 0.05133635314047236,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010638676583766937
+      },
+      {
+        "step": 17,
+        "image_mass": 0.4811491974251112,
+        "concentration": 0.049004823036289724,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.011660641990602016
+      },
+      {
+        "step": 18,
+        "image_mass": 0.4803290182026103,
+        "concentration": 0.0488289800856182,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.011280433274805546
+      },
+      {
+        "step": 19,
+        "image_mass": 0.482041728857439,
+        "concentration": 0.044147755871736694,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.010233134031295776
+      },
+      {
+        "step": 20,
+        "image_mass": 0.47960391908418387,
+        "concentration": 0.041634614668740855,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009530899114906788
+      },
+      {
+        "step": 21,
+        "image_mass": 0.4804920058231801,
+        "concentration": 0.04011303013842493,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009947218000888824
+      },
+      {
+        "step": 22,
+        "image_mass": 0.4800136918347562,
+        "concentration": 0.03931475210911217,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010037734173238277
+      },
+      {
+        "step": 23,
+        "image_mass": 0.4750822580681415,
+        "concentration": 0.03724838467193847,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010601225309073925
+      },
+      {
+        "step": 24,
+        "image_mass": 0.47251657146262005,
+        "concentration": 0.03601696496255413,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010545298457145691
+      },
+      {
+        "step": 25,
+        "image_mass": 0.47009196199360304,
+        "concentration": 0.03416949469243058,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.01046473253518343
+      },
+      {
+        "step": 26,
+        "image_mass": 0.47347736192750745,
+        "concentration": 0.03453984369983698,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010106670670211315
+      },
+      {
+        "step": 27,
+        "image_mass": 0.47025521557952743,
+        "concentration": 0.0330935076409814,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009861202910542488
+      },
+      {
+        "step": 28,
+        "image_mass": 0.46775954292388633,
+        "concentration": 0.03217738857292474,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.00875562708824873
+      },
+      {
+        "step": 29,
+        "image_mass": 0.4636350416694768,
+        "concentration": 0.027975070966700155,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.0056956675834953785
+      }
+    ],
+    "vegetable_stall": [
+      {
+        "step": 0,
+        "image_mass": 0.38949205981043633,
+        "concentration": 0.011904799703823521,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.007323185447603464
+      },
+      {
+        "step": 1,
+        "image_mass": 0.43402157856326085,
+        "concentration": 0.0317747403273092,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.017176823690533638
+      },
+      {
+        "step": 2,
+        "image_mass": 0.46126229109358974,
+        "concentration": 0.03907892139971003,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.013276934623718262
+      },
+      {
+        "step": 3,
+        "image_mass": 0.462509546225192,
+        "concentration": 0.03515240299426958,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.012895616702735424
+      },
+      {
+        "step": 4,
+        "image_mass": 0.47128621142474003,
+        "concentration": 0.03439735226635121,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.013370675034821033
+      },
+      {
+        "step": 5,
+        "image_mass": 0.476532096916344,
+        "concentration": 0.035370497180529537,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.012635123915970325
+      },
+      {
+        "step": 6,
+        "image_mass": 0.48143849542248063,
+        "concentration": 0.03498123594656244,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013675803318619728
+      },
+      {
+        "step": 7,
+        "image_mass": 0.48622035347216297,
+        "concentration": 0.03224105228391927,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013990272767841816
+      },
+      {
+        "step": 8,
+        "image_mass": 0.4869803114270326,
+        "concentration": 0.031935393833502634,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012587018311023712
+      },
+      {
+        "step": 9,
+        "image_mass": 0.4888537926017307,
+        "concentration": 0.03141362552024052,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01209983043372631
+      },
+      {
+        "step": 10,
+        "image_mass": 0.4934623655426549,
+        "concentration": 0.03275496035023073,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011565083637833595
+      },
+      {
+        "step": 11,
+        "image_mass": 0.4921092168369796,
+        "concentration": 0.03178062293971751,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011577836237847805
+      },
+      {
+        "step": 12,
+        "image_mass": 0.4937826833775034,
+        "concentration": 0.03198725592404261,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010970573872327805
+      },
+      {
+        "step": 13,
+        "image_mass": 0.49083104623423424,
+        "concentration": 0.03236066754391753,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010833113454282284
+      },
+      {
+        "step": 14,
+        "image_mass": 0.4926605011423817,
+        "concentration": 0.03167798121320098,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010808310471475124
+      },
+      {
+        "step": 15,
+        "image_mass": 0.48785046095144935,
+        "concentration": 0.030306630353936215,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011056584306061268
+      },
+      {
+        "step": 16,
+        "image_mass": 0.48930264137743507,
+        "concentration": 0.031235823186062106,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010013149119913578
+      },
+      {
+        "step": 17,
+        "image_mass": 0.4818106565217022,
+        "concentration": 0.027314117305597185,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.01108755636960268
+      },
+      {
+        "step": 18,
+        "image_mass": 0.4831164420756977,
+        "concentration": 0.025433003325348924,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.010480276308953762
+      },
+      {
+        "step": 19,
+        "image_mass": 0.483479407383129,
+        "concentration": 0.025892906624142453,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.009449655190110207
+      },
+      {
+        "step": 20,
+        "image_mass": 0.48502067968365736,
+        "concentration": 0.025576832752174483,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.008645455352962017
+      },
+      {
+        "step": 21,
+        "image_mass": 0.48593918315600604,
+        "concentration": 0.02501007231024499,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.008625459857285023
+      },
+      {
+        "step": 22,
+        "image_mass": 0.4841137008770602,
+        "concentration": 0.025570525608777817,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.00865837000310421
+      },
+      {
+        "step": 23,
+        "image_mass": 0.4808299951837398,
+        "concentration": 0.024445866381581416,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009066496975719929
+      },
+      {
+        "step": 24,
+        "image_mass": 0.47574545080715325,
+        "concentration": 0.02340009378382113,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009159465320408344
+      },
+      {
+        "step": 25,
+        "image_mass": 0.476938353094738,
+        "concentration": 0.025411646919900943,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.00899333693087101
+      },
+      {
+        "step": 26,
+        "image_mass": 0.4797444635332795,
+        "concentration": 0.02505507599780077,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.008625281974673271
+      },
+      {
+        "step": 27,
+        "image_mass": 0.4758916844148189,
+        "concentration": 0.02276586746612541,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.008613028563559055
+      },
+      {
+        "step": 28,
+        "image_mass": 0.47293923802499194,
+        "concentration": 0.021281537538992645,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.008017566055059433
+      },
+      {
+        "step": 29,
+        "image_mass": 0.4637797521718312,
+        "concentration": 0.018474278419167156,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.005646862089633942
+      }
+    ],
+    "tomatoes": [
+      {
+        "step": 0,
+        "image_mass": 0.36543044880090747,
+        "concentration": 0.018187030588344144,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.007639179937541485
+      },
+      {
+        "step": 1,
+        "image_mass": 0.4033092210738687,
+        "concentration": 0.05436747289359167,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.023499000817537308
+      },
+      {
+        "step": 2,
+        "image_mass": 0.4269442391087068,
+        "concentration": 0.06347345761051426,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.018206674605607986
+      },
+      {
+        "step": 3,
+        "image_mass": 0.42111494681739714,
+        "concentration": 0.0615235869669003,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.016061529517173767
+      },
+      {
+        "step": 4,
+        "image_mass": 0.42968410774483345,
+        "concentration": 0.0636428302882468,
+        "peak_xy_patch": [
+          26,
+          4
+        ],
+        "peak_value": 0.01899798773229122
+      },
+      {
+        "step": 5,
+        "image_mass": 0.4351306566532003,
+        "concentration": 0.07019167171274943,
+        "peak_xy_patch": [
+          28,
+          1
+        ],
+        "peak_value": 0.017941882833838463
+      },
+      {
+        "step": 6,
+        "image_mass": 0.44067284697666764,
+        "concentration": 0.07341916355068068,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01905408687889576
+      },
+      {
+        "step": 7,
+        "image_mass": 0.44388888793764636,
+        "concentration": 0.07113963301082893,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.020425597205758095
+      },
+      {
+        "step": 8,
+        "image_mass": 0.4518019192328211,
+        "concentration": 0.07569016794860461,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01908048801124096
+      },
+      {
+        "step": 9,
+        "image_mass": 0.4554412584693637,
+        "concentration": 0.07721350013325246,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.019039269536733627
+      },
+      {
+        "step": 10,
+        "image_mass": 0.4604180958849611,
+        "concentration": 0.08043468638510676,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01836732216179371
+      },
+      {
+        "step": 11,
+        "image_mass": 0.45901956885063555,
+        "concentration": 0.08082834283579932,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01870957762002945
+      },
+      {
+        "step": 12,
+        "image_mass": 0.46274664693919476,
+        "concentration": 0.08084512702753166,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.017942016944289207
+      },
+      {
+        "step": 13,
+        "image_mass": 0.4629596854938427,
+        "concentration": 0.0833603663058996,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.017638754099607468
+      },
+      {
+        "step": 14,
+        "image_mass": 0.4613046089070849,
+        "concentration": 0.08294661917171242,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01806129515171051
+      },
+      {
+        "step": 15,
+        "image_mass": 0.45652551605599,
+        "concentration": 0.08554975584956825,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01840490661561489
+      },
+      {
+        "step": 16,
+        "image_mass": 0.4596509048715234,
+        "concentration": 0.08496371470576958,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.016644565388560295
+      },
+      {
+        "step": 17,
+        "image_mass": 0.4460751714359503,
+        "concentration": 0.08130827876356483,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.01866934448480606
+      },
+      {
+        "step": 18,
+        "image_mass": 0.44486250112822745,
+        "concentration": 0.08346082929317289,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.018310684710741043
+      },
+      {
+        "step": 19,
+        "image_mass": 0.44443779411085416,
+        "concentration": 0.08394640058890124,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.01663137972354889
+      },
+      {
+        "step": 20,
+        "image_mass": 0.44519047578796744,
+        "concentration": 0.08353930767940065,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.0151531295850873
+      },
+      {
+        "step": 21,
+        "image_mass": 0.44492621601966675,
+        "concentration": 0.08025940302723777,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.015841862186789513
+      },
+      {
+        "step": 22,
+        "image_mass": 0.44381092916592024,
+        "concentration": 0.07864316233742785,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.016043921932578087
+      },
+      {
+        "step": 23,
+        "image_mass": 0.43626049034355674,
+        "concentration": 0.07372190551763214,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.01737947389483452
+      },
+      {
+        "step": 24,
+        "image_mass": 0.4347900377106271,
+        "concentration": 0.07253552471686764,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.017544561997056007
+      },
+      {
+        "step": 25,
+        "image_mass": 0.4356704821184394,
+        "concentration": 0.07200450383947521,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.017413536086678505
+      },
+      {
+        "step": 26,
+        "image_mass": 0.44086514390073717,
+        "concentration": 0.07251803966633052,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.01679006963968277
+      },
+      {
+        "step": 27,
+        "image_mass": 0.4398783959186403,
+        "concentration": 0.06887545877281076,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.0163730401545763
+      },
+      {
+        "step": 28,
+        "image_mass": 0.44021192847867496,
+        "concentration": 0.06498834435891498,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.014705372042953968
+      },
+      {
+        "step": 29,
+        "image_mass": 0.4432759984774748,
+        "concentration": 0.06117773476736432,
+        "peak_xy_patch": [
+          31,
+          28
+        ],
+        "peak_value": 0.009632699191570282
+      }
+    ],
+    "bag": [
+      {
+        "step": 0,
+        "image_mass": 0.3673607691889629,
+        "concentration": 0.029553124698366795,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.007106573786586523
+      },
+      {
+        "step": 1,
+        "image_mass": 0.40551302043604665,
+        "concentration": 0.06073424214632506,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.020736213773489
+      },
+      {
+        "step": 2,
+        "image_mass": 0.4292692132294178,
+        "concentration": 0.06789844559383362,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.016008149832487106
+      },
+      {
+        "step": 3,
+        "image_mass": 0.42386071402870584,
+        "concentration": 0.06366446122659741,
+        "peak_xy_patch": [
+          26,
+          4
+        ],
+        "peak_value": 0.014120139181613922
+      },
+      {
+        "step": 4,
+        "image_mass": 0.4315530169988051,
+        "concentration": 0.06162432709523824,
+        "peak_xy_patch": [
+          26,
+          4
+        ],
+        "peak_value": 0.016685284674167633
+      },
+      {
+        "step": 5,
+        "image_mass": 0.4387907002965221,
+        "concentration": 0.06382297490094768,
+        "peak_xy_patch": [
+          28,
+          1
+        ],
+        "peak_value": 0.0151473144069314
+      },
+      {
+        "step": 6,
+        "image_mass": 0.44426031835610047,
+        "concentration": 0.0642107160989771,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.016761133447289467
+      },
+      {
+        "step": 7,
+        "image_mass": 0.4479796274099499,
+        "concentration": 0.06012370301950076,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.0177870262414217
+      },
+      {
+        "step": 8,
+        "image_mass": 0.45710687193786725,
+        "concentration": 0.06137040442247543,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.016370300203561783
+      },
+      {
+        "step": 9,
+        "image_mass": 0.4575602737895679,
+        "concentration": 0.06287940563887817,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.016076557338237762
+      },
+      {
+        "step": 10,
+        "image_mass": 0.4611173378798412,
+        "concentration": 0.06699385403169145,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.015388105064630508
+      },
+      {
+        "step": 11,
+        "image_mass": 0.4604918595723575,
+        "concentration": 0.06824357638691836,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.015394902788102627
+      },
+      {
+        "step": 12,
+        "image_mass": 0.46524315493297763,
+        "concentration": 0.06725463277553534,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014783444814383984
+      },
+      {
+        "step": 13,
+        "image_mass": 0.464423296332825,
+        "concentration": 0.07061462027443288,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014463130384683609
+      },
+      {
+        "step": 14,
+        "image_mass": 0.46478862178628333,
+        "concentration": 0.07196704622082606,
+        "peak_xy_patch": [
+          14,
+          16
+        ],
+        "peak_value": 0.015216377563774586
+      },
+      {
+        "step": 15,
+        "image_mass": 0.46063865366159007,
+        "concentration": 0.07232017431868953,
+        "peak_xy_patch": [
+          14,
+          16
+        ],
+        "peak_value": 0.01872214861214161
+      },
+      {
+        "step": 16,
+        "image_mass": 0.46264985427842475,
+        "concentration": 0.0719136467619188,
+        "peak_xy_patch": [
+          14,
+          16
+        ],
+        "peak_value": 0.018438667058944702
+      },
+      {
+        "step": 17,
+        "image_mass": 0.4517973960173549,
+        "concentration": 0.06733290321599461,
+        "peak_xy_patch": [
+          14,
+          16
+        ],
+        "peak_value": 0.017784571275115013
+      },
+      {
+        "step": 18,
+        "image_mass": 0.4488632099382812,
+        "concentration": 0.06762710747728395,
+        "peak_xy_patch": [
+          14,
+          16
+        ],
+        "peak_value": 0.016332561150193214
+      },
+      {
+        "step": 19,
+        "image_mass": 0.449889479772537,
+        "concentration": 0.06711441583074396,
+        "peak_xy_patch": [
+          14,
+          16
+        ],
+        "peak_value": 0.015543203800916672
+      },
+      {
+        "step": 20,
+        "image_mass": 0.4518141468142858,
+        "concentration": 0.06566611840366599,
+        "peak_xy_patch": [
+          14,
+          16
+        ],
+        "peak_value": 0.014542696066200733
+      },
+      {
+        "step": 21,
+        "image_mass": 0.4538805083866464,
+        "concentration": 0.061912878960885265,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.012747119180858135
+      },
+      {
+        "step": 22,
+        "image_mass": 0.4520524660401861,
+        "concentration": 0.06071479991992024,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.012822977267205715
+      },
+      {
+        "step": 23,
+        "image_mass": 0.4501467209775001,
+        "concentration": 0.05038981241119256,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.013278556056320667
+      },
+      {
+        "step": 24,
+        "image_mass": 0.44859233500028495,
+        "concentration": 0.04844140848213219,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.01291513442993164
+      },
+      {
+        "step": 25,
+        "image_mass": 0.447217811451992,
+        "concentration": 0.047921393879834406,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.012439669109880924
+      },
+      {
+        "step": 26,
+        "image_mass": 0.45297356697847135,
+        "concentration": 0.04362234842100232,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011849942617118359
+      },
+      {
+        "step": 27,
+        "image_mass": 0.45167008016142063,
+        "concentration": 0.04120008370127237,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011592991650104523
+      },
+      {
+        "step": 28,
+        "image_mass": 0.4522894988331245,
+        "concentration": 0.03685586290126164,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010370282456278801
+      },
+      {
+        "step": 29,
+        "image_mass": 0.4475707403034903,
+        "concentration": 0.034835494543903334,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.0061375959776341915
+      }
+    ],
+    "woman": [
+      {
+        "step": 0,
+        "image_mass": 0.36078116297721863,
+        "concentration": 0.022356831595821025,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.007497349288314581
+      },
+      {
+        "step": 1,
+        "image_mass": 0.4006307695090072,
+        "concentration": 0.04726700551003027,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.01877138391137123
+      },
+      {
+        "step": 2,
+        "image_mass": 0.4234831821959233,
+        "concentration": 0.05518889898025647,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.014190432615578175
+      },
+      {
+        "step": 3,
+        "image_mass": 0.4202027674036799,
+        "concentration": 0.052162659758545615,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.012946050614118576
+      },
+      {
+        "step": 4,
+        "image_mass": 0.4253245638246881,
+        "concentration": 0.050928888110834514,
+        "peak_xy_patch": [
+          26,
+          4
+        ],
+        "peak_value": 0.014081241562962532
+      },
+      {
+        "step": 5,
+        "image_mass": 0.4307108637440251,
+        "concentration": 0.05168278332702769,
+        "peak_xy_patch": [
+          28,
+          1
+        ],
+        "peak_value": 0.012963971123099327
+      },
+      {
+        "step": 6,
+        "image_mass": 0.4383839949441608,
+        "concentration": 0.051775328408524834,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01386545691639185
+      },
+      {
+        "step": 7,
+        "image_mass": 0.445253051322652,
+        "concentration": 0.04947586463831988,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013885391876101494
+      },
+      {
+        "step": 8,
+        "image_mass": 0.459589952006354,
+        "concentration": 0.051706831835570566,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012172766029834747
+      },
+      {
+        "step": 9,
+        "image_mass": 0.46290229383157566,
+        "concentration": 0.05224227642793133,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01173323206603527
+      },
+      {
+        "step": 10,
+        "image_mass": 0.4688275775552029,
+        "concentration": 0.05459295903794159,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011112270876765251
+      },
+      {
+        "step": 11,
+        "image_mass": 0.46899092869716696,
+        "concentration": 0.05507560090031849,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011134437285363674
+      },
+      {
+        "step": 12,
+        "image_mass": 0.4730959406879265,
+        "concentration": 0.055450233554720896,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010577098466455936
+      },
+      {
+        "step": 13,
+        "image_mass": 0.47322900433209725,
+        "concentration": 0.056339242537048584,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010418104007840157
+      },
+      {
+        "step": 14,
+        "image_mass": 0.47261367419559974,
+        "concentration": 0.05658426699437169,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010586904361844063
+      },
+      {
+        "step": 15,
+        "image_mass": 0.46598903644189704,
+        "concentration": 0.054245990607016514,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010629954747855663
+      },
+      {
+        "step": 16,
+        "image_mass": 0.4667232930660248,
+        "concentration": 0.05308766400125908,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.009629707783460617
+      },
+      {
+        "step": 17,
+        "image_mass": 0.4581766485935077,
+        "concentration": 0.05026773273784724,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.010957480408251286
+      },
+      {
+        "step": 18,
+        "image_mass": 0.45512657950166613,
+        "concentration": 0.05154313631421592,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.01067814789712429
+      },
+      {
+        "step": 19,
+        "image_mass": 0.4545396742905723,
+        "concentration": 0.04987695979926288,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.009708186611533165
+      },
+      {
+        "step": 20,
+        "image_mass": 0.4583094332338078,
+        "concentration": 0.05016232813118715,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.00930368434637785
+      },
+      {
+        "step": 21,
+        "image_mass": 0.4606353670824319,
+        "concentration": 0.047899531307935006,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009660996496677399
+      },
+      {
+        "step": 22,
+        "image_mass": 0.46125825711351354,
+        "concentration": 0.049770789514292924,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009825266897678375
+      },
+      {
+        "step": 23,
+        "image_mass": 0.45763398239796516,
+        "concentration": 0.05223700030141021,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010672451928257942
+      },
+      {
+        "step": 24,
+        "image_mass": 0.45629116632335354,
+        "concentration": 0.05166201758648026,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010702183470129967
+      },
+      {
+        "step": 25,
+        "image_mass": 0.45322511038102675,
+        "concentration": 0.05051529792791787,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.01058955304324627
+      },
+      {
+        "step": 26,
+        "image_mass": 0.45649142807815224,
+        "concentration": 0.051100775434402945,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010364346206188202
+      },
+      {
+        "step": 27,
+        "image_mass": 0.4510765976156108,
+        "concentration": 0.05011986882424402,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.01025591604411602
+      },
+      {
+        "step": 28,
+        "image_mass": 0.4532445030636154,
+        "concentration": 0.04747334575411866,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009189228527247906
+      },
+      {
+        "step": 29,
+        "image_mass": 0.4524911927583162,
+        "concentration": 0.04411503323990773,
+        "peak_xy_patch": [
+          31,
+          29
+        ],
+        "peak_value": 0.006215137429535389
+      }
+    ],
+    "blue_jacket": [
+      {
+        "step": 0,
+        "image_mass": 0.3785994079516968,
+        "concentration": 0.016279218627537895,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.007834895513951778
+      },
+      {
+        "step": 1,
+        "image_mass": 0.42305419576587155,
+        "concentration": 0.04338762654068007,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.020525019615888596
+      },
+      {
+        "step": 2,
+        "image_mass": 0.4496669233922148,
+        "concentration": 0.0511676534980976,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.016148323193192482
+      },
+      {
+        "step": 3,
+        "image_mass": 0.45014136952522676,
+        "concentration": 0.04863072918829958,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.014600376598536968
+      },
+      {
+        "step": 4,
+        "image_mass": 0.45721247934852727,
+        "concentration": 0.04803358007926917,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.015595901757478714
+      },
+      {
+        "step": 5,
+        "image_mass": 0.4620019122521626,
+        "concentration": 0.05224115244898042,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.01472234632819891
+      },
+      {
+        "step": 6,
+        "image_mass": 0.4666015886614332,
+        "concentration": 0.054386274611311625,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.016907144337892532
+      },
+      {
+        "step": 7,
+        "image_mass": 0.4713572912442032,
+        "concentration": 0.05144535299505759,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01728607714176178
+      },
+      {
+        "step": 8,
+        "image_mass": 0.4801536010199925,
+        "concentration": 0.051607984973825904,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01517082005739212
+      },
+      {
+        "step": 9,
+        "image_mass": 0.482880713432678,
+        "concentration": 0.052524164720823885,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01475340873003006
+      },
+      {
+        "step": 10,
+        "image_mass": 0.4875342774321325,
+        "concentration": 0.054845518247485514,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014090096578001976
+      },
+      {
+        "step": 11,
+        "image_mass": 0.48685951286461204,
+        "concentration": 0.05554812410729626,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014224403537809849
+      },
+      {
+        "step": 12,
+        "image_mass": 0.49040356563637033,
+        "concentration": 0.05639991013682255,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01345345564186573
+      },
+      {
+        "step": 13,
+        "image_mass": 0.48953821568284184,
+        "concentration": 0.058144290393716935,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013288760557770729
+      },
+      {
+        "step": 14,
+        "image_mass": 0.4892138979048468,
+        "concentration": 0.05765958415334782,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013564031571149826
+      },
+      {
+        "step": 15,
+        "image_mass": 0.4829667576850625,
+        "concentration": 0.05763098629487051,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014124603942036629
+      },
+      {
+        "step": 16,
+        "image_mass": 0.48644644106389023,
+        "concentration": 0.05802770286523906,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012803548946976662
+      },
+      {
+        "step": 17,
+        "image_mass": 0.4782838781393366,
+        "concentration": 0.05362347556048197,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.01465589925646782
+      },
+      {
+        "step": 18,
+        "image_mass": 0.4768421771732392,
+        "concentration": 0.054087614198296774,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.014436612837016582
+      },
+      {
+        "step": 19,
+        "image_mass": 0.47814352046407294,
+        "concentration": 0.05323217277051684,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.013221991248428822
+      },
+      {
+        "step": 20,
+        "image_mass": 0.4797403222764842,
+        "concentration": 0.05245970287859669,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.011578712612390518
+      },
+      {
+        "step": 21,
+        "image_mass": 0.48020241253834683,
+        "concentration": 0.051162432449694095,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011128788813948631
+      },
+      {
+        "step": 22,
+        "image_mass": 0.4794301308138529,
+        "concentration": 0.05010214330057916,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011179355904459953
+      },
+      {
+        "step": 23,
+        "image_mass": 0.47504253531224094,
+        "concentration": 0.04838114311331798,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011798953637480736
+      },
+      {
+        "step": 24,
+        "image_mass": 0.47283025992510375,
+        "concentration": 0.04846882829536103,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011666348204016685
+      },
+      {
+        "step": 25,
+        "image_mass": 0.4739125722408062,
+        "concentration": 0.05007006873030806,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011335455812513828
+      },
+      {
+        "step": 26,
+        "image_mass": 0.4754024189314805,
+        "concentration": 0.04864476132152218,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010782996192574501
+      },
+      {
+        "step": 27,
+        "image_mass": 0.4730056913831504,
+        "concentration": 0.04668688901817186,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.01051886472851038
+      },
+      {
+        "step": 28,
+        "image_mass": 0.4706070624815766,
+        "concentration": 0.044089696723122906,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.00957275927066803
+      },
+      {
+        "step": 29,
+        "image_mass": 0.4696641833288595,
+        "concentration": 0.03910265611829833,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.006235772743821144
+      }
+    ],
+    "bamboo_basket": [
+      {
+        "step": 0,
+        "image_mass": 0.3748199454857968,
+        "concentration": 0.018452098024531516,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.006517104338854551
+      },
+      {
+        "step": 1,
+        "image_mass": 0.41495569558173884,
+        "concentration": 0.0435260904970759,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.018632017076015472
+      },
+      {
+        "step": 2,
+        "image_mass": 0.4411308468261268,
+        "concentration": 0.0517572091592039,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.01457326952368021
+      },
+      {
+        "step": 3,
+        "image_mass": 0.44143820308090653,
+        "concentration": 0.05296979203872132,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.013054443523287773
+      },
+      {
+        "step": 4,
+        "image_mass": 0.447617595695192,
+        "concentration": 0.050787637458109325,
+        "peak_xy_patch": [
+          26,
+          4
+        ],
+        "peak_value": 0.01520642638206482
+      },
+      {
+        "step": 5,
+        "image_mass": 0.4520710985088954,
+        "concentration": 0.053538766809844596,
+        "peak_xy_patch": [
+          28,
+          1
+        ],
+        "peak_value": 0.014056479558348656
+      },
+      {
+        "step": 6,
+        "image_mass": 0.45742702145071235,
+        "concentration": 0.05554881809453671,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.015553329139947891
+      },
+      {
+        "step": 7,
+        "image_mass": 0.46084578236332163,
+        "concentration": 0.054401542081220056,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.016449183225631714
+      },
+      {
+        "step": 8,
+        "image_mass": 0.4661589022143744,
+        "concentration": 0.05707030469887597,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014967414550483227
+      },
+      {
+        "step": 9,
+        "image_mass": 0.46865722119400743,
+        "concentration": 0.05666043274047439,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014836017042398453
+      },
+      {
+        "step": 10,
+        "image_mass": 0.47349364100955427,
+        "concentration": 0.05956747509359761,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014271005988121033
+      },
+      {
+        "step": 11,
+        "image_mass": 0.47182249535399023,
+        "concentration": 0.0601369033639606,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014408325776457787
+      },
+      {
+        "step": 12,
+        "image_mass": 0.477877851750236,
+        "concentration": 0.063221777104153,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013645537197589874
+      },
+      {
+        "step": 13,
+        "image_mass": 0.47757328042644076,
+        "concentration": 0.06573401560043823,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01339775137603283
+      },
+      {
+        "step": 14,
+        "image_mass": 0.47659866297908593,
+        "concentration": 0.06703005185555899,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013569241389632225
+      },
+      {
+        "step": 15,
+        "image_mass": 0.472684869702789,
+        "concentration": 0.06906106687778135,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013882088474929333
+      },
+      {
+        "step": 16,
+        "image_mass": 0.47567340986279305,
+        "concentration": 0.07017256446860576,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012505094520747662
+      },
+      {
+        "step": 17,
+        "image_mass": 0.4666668727295473,
+        "concentration": 0.06735056628916225,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.014005357399582863
+      },
+      {
+        "step": 18,
+        "image_mass": 0.46432643159641884,
+        "concentration": 0.06801771877063545,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.013801349326968193
+      },
+      {
+        "step": 19,
+        "image_mass": 0.46503000827215146,
+        "concentration": 0.06768503541082038,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.012685518711805344
+      },
+      {
+        "step": 20,
+        "image_mass": 0.46568216977175325,
+        "concentration": 0.06760387567539228,
+        "peak_xy_patch": [
+          22,
+          18
+        ],
+        "peak_value": 0.012268153950572014
+      },
+      {
+        "step": 21,
+        "image_mass": 0.4682110051653581,
+        "concentration": 0.06621681937454449,
+        "peak_xy_patch": [
+          22,
+          18
+        ],
+        "peak_value": 0.012285562232136726
+      },
+      {
+        "step": 22,
+        "image_mass": 0.4674274463177426,
+        "concentration": 0.06472121838550127,
+        "peak_xy_patch": [
+          22,
+          18
+        ],
+        "peak_value": 0.012918898835778236
+      },
+      {
+        "step": 23,
+        "image_mass": 0.4672076891147299,
+        "concentration": 0.0643516156320022,
+        "peak_xy_patch": [
+          22,
+          18
+        ],
+        "peak_value": 0.013007684610784054
+      },
+      {
+        "step": 24,
+        "image_mass": 0.4670674740045797,
+        "concentration": 0.06405159039771591,
+        "peak_xy_patch": [
+          22,
+          18
+        ],
+        "peak_value": 0.013242713175714016
+      },
+      {
+        "step": 25,
+        "image_mass": 0.46797883887484204,
+        "concentration": 0.06337257532608709,
+        "peak_xy_patch": [
+          22,
+          18
+        ],
+        "peak_value": 0.013448487035930157
+      },
+      {
+        "step": 26,
+        "image_mass": 0.4739053524535848,
+        "concentration": 0.0620582750485944,
+        "peak_xy_patch": [
+          22,
+          18
+        ],
+        "peak_value": 0.012102700769901276
+      },
+      {
+        "step": 27,
+        "image_mass": 0.47359409429191146,
+        "concentration": 0.058644166275092835,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.0117357037961483
+      },
+      {
+        "step": 28,
+        "image_mass": 0.4731645215797471,
+        "concentration": 0.053265132129373116,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.0106312595307827
+      },
+      {
+        "step": 29,
+        "image_mass": 0.47386656192247756,
+        "concentration": 0.04524550629841784,
+        "peak_xy_patch": [
+          22,
+          18
+        ],
+        "peak_value": 0.008433546870946884
+      }
+    ],
+    "left_hand": [
+      {
+        "step": 0,
+        "image_mass": 0.3865260364400456,
+        "concentration": 0.01701867364681031,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.006725913845002651
+      },
+      {
+        "step": 1,
+        "image_mass": 0.42077747828443535,
+        "concentration": 0.04205042455929098,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.01813471131026745
+      },
+      {
+        "step": 2,
+        "image_mass": 0.44002048463153187,
+        "concentration": 0.04948771468850832,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.014142426662147045
+      },
+      {
+        "step": 3,
+        "image_mass": 0.4365546657354571,
+        "concentration": 0.04603485450385836,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.012991415336728096
+      },
+      {
+        "step": 4,
+        "image_mass": 0.44203989750531036,
+        "concentration": 0.043509281803359334,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.013577759265899658
+      },
+      {
+        "step": 5,
+        "image_mass": 0.4458273423369974,
+        "concentration": 0.044632179980307995,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.012513158842921257
+      },
+      {
+        "step": 6,
+        "image_mass": 0.45099200766708236,
+        "concentration": 0.04412629739299179,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013471932150423527
+      },
+      {
+        "step": 7,
+        "image_mass": 0.4562802155560348,
+        "concentration": 0.04068491057421175,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013506980612874031
+      },
+      {
+        "step": 8,
+        "image_mass": 0.46521252481034026,
+        "concentration": 0.04024504379755345,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01160228718072176
+      },
+      {
+        "step": 9,
+        "image_mass": 0.46616447204723954,
+        "concentration": 0.04057639225189935,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011065227910876274
+      },
+      {
+        "step": 10,
+        "image_mass": 0.47090366351767443,
+        "concentration": 0.04232338510821376,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010506108403205872
+      },
+      {
+        "step": 11,
+        "image_mass": 0.4721739529486513,
+        "concentration": 0.04268087518097119,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010500186122953892
+      },
+      {
+        "step": 12,
+        "image_mass": 0.4747671837976668,
+        "concentration": 0.042547199918155365,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010041948407888412
+      },
+      {
+        "step": 13,
+        "image_mass": 0.4741746328363661,
+        "concentration": 0.042746510249875413,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.009838396683335304
+      },
+      {
+        "step": 14,
+        "image_mass": 0.4739904212183319,
+        "concentration": 0.0426950523032501,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010041682049632072
+      },
+      {
+        "step": 15,
+        "image_mass": 0.4664792024268536,
+        "concentration": 0.04333575981195781,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010185410268604755
+      },
+      {
+        "step": 16,
+        "image_mass": 0.46586873050546274,
+        "concentration": 0.04337582687860653,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.009296120144426823
+      },
+      {
+        "step": 17,
+        "image_mass": 0.4564428345329361,
+        "concentration": 0.04367279260471468,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.010238420218229294
+      },
+      {
+        "step": 18,
+        "image_mass": 0.45402094440942165,
+        "concentration": 0.0452538216907431,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.009838222526013851
+      },
+      {
+        "step": 19,
+        "image_mass": 0.4526500222564209,
+        "concentration": 0.04528995963204019,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.008964115753769875
+      },
+      {
+        "step": 20,
+        "image_mass": 0.4528152244456578,
+        "concentration": 0.044415495424541374,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.007747017778456211
+      },
+      {
+        "step": 21,
+        "image_mass": 0.4522620364150498,
+        "concentration": 0.039534759042277656,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.0082424096763134
+      },
+      {
+        "step": 22,
+        "image_mass": 0.4505392808787292,
+        "concentration": 0.037998737658434645,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.00842693354934454
+      },
+      {
+        "step": 23,
+        "image_mass": 0.447301305262954,
+        "concentration": 0.03856652903354185,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009059625677764416
+      },
+      {
+        "step": 24,
+        "image_mass": 0.4498283422435634,
+        "concentration": 0.03759532632904705,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009137040004134178
+      },
+      {
+        "step": 25,
+        "image_mass": 0.45544844718824606,
+        "concentration": 0.032815411410002215,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009100010618567467
+      },
+      {
+        "step": 26,
+        "image_mass": 0.45373420340183657,
+        "concentration": 0.033649179040818544,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009139248169958591
+      },
+      {
+        "step": 27,
+        "image_mass": 0.44514646887546405,
+        "concentration": 0.03568910841656514,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009215153753757477
+      },
+      {
+        "step": 28,
+        "image_mass": 0.4402476118848426,
+        "concentration": 0.03421333971315943,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.00841085147112608
+      },
+      {
+        "step": 29,
+        "image_mass": 0.4396435886010295,
+        "concentration": 0.030179197381257183,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.00524939363822341
+      }
+    ],
+    "red_apple": [
+      {
+        "step": 0,
+        "image_mass": 0.36420446453848854,
+        "concentration": 0.01768514285114242,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.007233610842376947
+      },
+      {
+        "step": 1,
+        "image_mass": 0.4019633427087683,
+        "concentration": 0.04387397700002549,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.019010305404663086
+      },
+      {
+        "step": 2,
+        "image_mass": 0.4252122915786458,
+        "concentration": 0.050074024369479386,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.014498554170131683
+      },
+      {
+        "step": 3,
+        "image_mass": 0.42289434089616407,
+        "concentration": 0.049450637340990866,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.013310704380273819
+      },
+      {
+        "step": 4,
+        "image_mass": 0.4292004098097095,
+        "concentration": 0.04974485392938832,
+        "peak_xy_patch": [
+          26,
+          4
+        ],
+        "peak_value": 0.014977673999965191
+      },
+      {
+        "step": 5,
+        "image_mass": 0.43518102484813426,
+        "concentration": 0.054040640722944566,
+        "peak_xy_patch": [
+          28,
+          1
+        ],
+        "peak_value": 0.013938017189502716
+      },
+      {
+        "step": 6,
+        "image_mass": 0.4400338679406559,
+        "concentration": 0.056762300635502805,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01555820181965828
+      },
+      {
+        "step": 7,
+        "image_mass": 0.44328861370740924,
+        "concentration": 0.05613533063478515,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.016654113307595253
+      },
+      {
+        "step": 8,
+        "image_mass": 0.44992815468867775,
+        "concentration": 0.059551064819653665,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01498473808169365
+      },
+      {
+        "step": 9,
+        "image_mass": 0.45208592784183566,
+        "concentration": 0.06083489433625844,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014930744655430317
+      },
+      {
+        "step": 10,
+        "image_mass": 0.4564946521422826,
+        "concentration": 0.063720546956473,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014418482780456543
+      },
+      {
+        "step": 11,
+        "image_mass": 0.45615542044106405,
+        "concentration": 0.06450129997781318,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014718633145093918
+      },
+      {
+        "step": 12,
+        "image_mass": 0.4609227237087907,
+        "concentration": 0.06585056195908756,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014163412153720856
+      },
+      {
+        "step": 13,
+        "image_mass": 0.46164986737130675,
+        "concentration": 0.06904042725499904,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013894920237362385
+      },
+      {
+        "step": 14,
+        "image_mass": 0.4616207891522208,
+        "concentration": 0.06930365942524519,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014243866316974163
+      },
+      {
+        "step": 15,
+        "image_mass": 0.45818695590423886,
+        "concentration": 0.07030360120202328,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014572148211300373
+      },
+      {
+        "step": 16,
+        "image_mass": 0.46164754674828146,
+        "concentration": 0.07061282059388663,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013301116414368153
+      },
+      {
+        "step": 17,
+        "image_mass": 0.4537563625344774,
+        "concentration": 0.06879824306306626,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.015078886412084103
+      },
+      {
+        "step": 18,
+        "image_mass": 0.4541373965330422,
+        "concentration": 0.07064587258963073,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.014906222932040691
+      },
+      {
+        "step": 19,
+        "image_mass": 0.4542917581711663,
+        "concentration": 0.06977575778712097,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.013654754497110844
+      },
+      {
+        "step": 20,
+        "image_mass": 0.45549095077149104,
+        "concentration": 0.06916948701367509,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.011982080526649952
+      },
+      {
+        "step": 21,
+        "image_mass": 0.45569939227425493,
+        "concentration": 0.06693900344596215,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.012131839990615845
+      },
+      {
+        "step": 22,
+        "image_mass": 0.4539870619919384,
+        "concentration": 0.06609411170593948,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.012312240898609161
+      },
+      {
+        "step": 23,
+        "image_mass": 0.44760589973884635,
+        "concentration": 0.06250661723036743,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.013191361911594868
+      },
+      {
+        "step": 24,
+        "image_mass": 0.4458504780486692,
+        "concentration": 0.06302907894624099,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.013170911930501461
+      },
+      {
+        "step": 25,
+        "image_mass": 0.44436713232425973,
+        "concentration": 0.06389098686808237,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.012875217013061047
+      },
+      {
+        "step": 26,
+        "image_mass": 0.4471351733081974,
+        "concentration": 0.06439552290690831,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.01231145579367876
+      },
+      {
+        "step": 27,
+        "image_mass": 0.4448586621292634,
+        "concentration": 0.061250590984272435,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011798200197517872
+      },
+      {
+        "step": 28,
+        "image_mass": 0.4428526843257714,
+        "concentration": 0.05853538024594718,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010343347676098347
+      },
+      {
+        "step": 29,
+        "image_mass": 0.4435244828928262,
+        "concentration": 0.05310769640830304,
+        "peak_xy_patch": [
+          31,
+          28
+        ],
+        "peak_value": 0.006357859820127487
+      }
+    ],
+    "right_hand": [
+      {
+        "step": 0,
+        "image_mass": 0.3634561440703692,
+        "concentration": 0.021242103390471834,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.006025052163749933
+      },
+      {
+        "step": 1,
+        "image_mass": 0.3959286756871734,
+        "concentration": 0.04614472243871759,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.0169383492320776
+      },
+      {
+        "step": 2,
+        "image_mass": 0.4158255488582654,
+        "concentration": 0.05455728911323088,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.013255931437015533
+      },
+      {
+        "step": 3,
+        "image_mass": 0.41478640110290144,
+        "concentration": 0.0533817871161707,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.0120878666639328
+      },
+      {
+        "step": 4,
+        "image_mass": 0.4230894525680924,
+        "concentration": 0.051044120506548274,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.012812410481274128
+      },
+      {
+        "step": 5,
+        "image_mass": 0.4286098748561926,
+        "concentration": 0.05223375539895181,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.011792656034231186
+      },
+      {
+        "step": 6,
+        "image_mass": 0.4348995288601145,
+        "concentration": 0.0517372013294094,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01303954143077135
+      },
+      {
+        "step": 7,
+        "image_mass": 0.4381904279871378,
+        "concentration": 0.048459400973130284,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013289183378219604
+      },
+      {
+        "step": 8,
+        "image_mass": 0.44945775758242235,
+        "concentration": 0.048317308729351804,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011339501477777958
+      },
+      {
+        "step": 9,
+        "image_mass": 0.45087409325060435,
+        "concentration": 0.04814492097266565,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01093023270368576
+      },
+      {
+        "step": 10,
+        "image_mass": 0.455080971121788,
+        "concentration": 0.049700994602695614,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010452483780682087
+      },
+      {
+        "step": 11,
+        "image_mass": 0.45577903027879074,
+        "concentration": 0.050722208386688616,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010449559427797794
+      },
+      {
+        "step": 12,
+        "image_mass": 0.4580869569617789,
+        "concentration": 0.0509072260232013,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010004623793065548
+      },
+      {
+        "step": 13,
+        "image_mass": 0.4576827488053823,
+        "concentration": 0.05182609318953835,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.009765884838998318
+      },
+      {
+        "step": 14,
+        "image_mass": 0.4577227690751897,
+        "concentration": 0.05239430247166188,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.009985537268221378
+      },
+      {
+        "step": 15,
+        "image_mass": 0.4530994784872746,
+        "concentration": 0.05205796978934474,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010059957392513752
+      },
+      {
+        "step": 16,
+        "image_mass": 0.45347647978633177,
+        "concentration": 0.05176985859767791,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.009233762510120869
+      },
+      {
+        "step": 17,
+        "image_mass": 0.44562726888398174,
+        "concentration": 0.050531992805757375,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.010256825014948845
+      },
+      {
+        "step": 18,
+        "image_mass": 0.443484656556393,
+        "concentration": 0.051151496967253074,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.009805156849324703
+      },
+      {
+        "step": 19,
+        "image_mass": 0.4413493735191878,
+        "concentration": 0.051332196104764694,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.008927005343139172
+      },
+      {
+        "step": 20,
+        "image_mass": 0.4416128008015221,
+        "concentration": 0.05047520854734,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.008050486445426941
+      },
+      {
+        "step": 21,
+        "image_mass": 0.44087217716150917,
+        "concentration": 0.0485333718239751,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.00874019879847765
+      },
+      {
+        "step": 22,
+        "image_mass": 0.4384860313148238,
+        "concentration": 0.04825593019430929,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.008958842605352402
+      },
+      {
+        "step": 23,
+        "image_mass": 0.43415693678252865,
+        "concentration": 0.0470306767716816,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009686922654509544
+      },
+      {
+        "step": 24,
+        "image_mass": 0.4336939282948151,
+        "concentration": 0.04606804510786133,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.00977530051022768
+      },
+      {
+        "step": 25,
+        "image_mass": 0.4357578582421411,
+        "concentration": 0.04303488129683186,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009718949906527996
+      },
+      {
+        "step": 26,
+        "image_mass": 0.4386406621488277,
+        "concentration": 0.043333657346197874,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009865212254226208
+      },
+      {
+        "step": 27,
+        "image_mass": 0.4355497341894079,
+        "concentration": 0.04383680384574806,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.00992745254188776
+      },
+      {
+        "step": 28,
+        "image_mass": 0.4364057411585236,
+        "concentration": 0.04334241140271888,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.008981173858046532
+      },
+      {
+        "step": 29,
+        "image_mass": 0.4364324923371896,
+        "concentration": 0.03537451230540578,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.0055392407812178135
+      }
+    ],
+    "elderly_man": [
+      {
+        "step": 0,
+        "image_mass": 0.3933735967002576,
+        "concentration": 0.02321301248881591,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.0065592266619205475
+      },
+      {
+        "step": 1,
+        "image_mass": 0.4365005900908727,
+        "concentration": 0.05105269452673422,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.019265584647655487
+      },
+      {
+        "step": 2,
+        "image_mass": 0.4612468683044426,
+        "concentration": 0.05619416827304058,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.015527895651757717
+      },
+      {
+        "step": 3,
+        "image_mass": 0.45918516168603674,
+        "concentration": 0.052149400835576176,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.014476677402853966
+      },
+      {
+        "step": 4,
+        "image_mass": 0.46543058029783424,
+        "concentration": 0.05129682081355946,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.015174997970461845
+      },
+      {
+        "step": 5,
+        "image_mass": 0.47259357424627524,
+        "concentration": 0.055154983541720215,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014089923352003098
+      },
+      {
+        "step": 6,
+        "image_mass": 0.47957313583174255,
+        "concentration": 0.05490684364214993,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.016186796128749847
+      },
+      {
+        "step": 7,
+        "image_mass": 0.4828091224626405,
+        "concentration": 0.05072381418473648,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01626688614487648
+      },
+      {
+        "step": 8,
+        "image_mass": 0.4939943524368573,
+        "concentration": 0.050728437010611804,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014712580479681492
+      },
+      {
+        "step": 9,
+        "image_mass": 0.5000901102612261,
+        "concentration": 0.05075066552989416,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014119130559265614
+      },
+      {
+        "step": 10,
+        "image_mass": 0.5055524126073578,
+        "concentration": 0.05203919318904482,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01367429830133915
+      },
+      {
+        "step": 11,
+        "image_mass": 0.5047059318603715,
+        "concentration": 0.05234114953500213,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013865012675523758
+      },
+      {
+        "step": 12,
+        "image_mass": 0.5094030118052615,
+        "concentration": 0.05320562527032702,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013278564438223839
+      },
+      {
+        "step": 13,
+        "image_mass": 0.5074566323601175,
+        "concentration": 0.05591098627968316,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01333933137357235
+      },
+      {
+        "step": 14,
+        "image_mass": 0.5032320059690392,
+        "concentration": 0.05819503165613382,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013911844231188297
+      },
+      {
+        "step": 15,
+        "image_mass": 0.49497689137933776,
+        "concentration": 0.06082151972521832,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.015471484512090683
+      },
+      {
+        "step": 16,
+        "image_mass": 0.49713632158818655,
+        "concentration": 0.0629636203302869,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014271192252635956
+      },
+      {
+        "step": 17,
+        "image_mass": 0.4890378409763798,
+        "concentration": 0.06030866373361532,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.016453653573989868
+      },
+      {
+        "step": 18,
+        "image_mass": 0.48652262706309557,
+        "concentration": 0.06101737000353613,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.01634317636489868
+      },
+      {
+        "step": 19,
+        "image_mass": 0.4860252574289916,
+        "concentration": 0.06018087126736105,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.015212105587124825
+      },
+      {
+        "step": 20,
+        "image_mass": 0.4871073236135999,
+        "concentration": 0.058761625560619146,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.013514712452888489
+      },
+      {
+        "step": 21,
+        "image_mass": 0.48947971223969944,
+        "concentration": 0.05619422434825461,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011371614411473274
+      },
+      {
+        "step": 22,
+        "image_mass": 0.4859623572410783,
+        "concentration": 0.05392345168954671,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011555054225027561
+      },
+      {
+        "step": 23,
+        "image_mass": 0.4806857613584725,
+        "concentration": 0.050123388318845,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.012317130342125893
+      },
+      {
+        "step": 24,
+        "image_mass": 0.47883768800238613,
+        "concentration": 0.050239788272511854,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.012334998697042465
+      },
+      {
+        "step": 25,
+        "image_mass": 0.4783746314351447,
+        "concentration": 0.05190416076906845,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.012035529129207134
+      },
+      {
+        "step": 26,
+        "image_mass": 0.4823509724083124,
+        "concentration": 0.05402144702971745,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011440928094089031
+      },
+      {
+        "step": 27,
+        "image_mass": 0.4780657650408102,
+        "concentration": 0.054004325479036885,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011274784803390503
+      },
+      {
+        "step": 28,
+        "image_mass": 0.47553374952985905,
+        "concentration": 0.051832976216535376,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010029513388872147
+      },
+      {
+        "step": 29,
+        "image_mass": 0.4692999092367245,
+        "concentration": 0.044114770628892686,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.007116043008863926
+      }
+    ],
+    "gray_hat": [
+      {
+        "step": 0,
+        "image_mass": 0.42285333115432877,
+        "concentration": 0.019505826996871867,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.006160461809486151
+      },
+      {
+        "step": 1,
+        "image_mass": 0.46045703867275734,
+        "concentration": 0.03735102396766454,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.015780508518218994
+      },
+      {
+        "step": 2,
+        "image_mass": 0.4805497762572486,
+        "concentration": 0.04212023584268543,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.01288906205445528
+      },
+      {
+        "step": 3,
+        "image_mass": 0.4785074379906291,
+        "concentration": 0.03973260601849615,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.012466744519770145
+      },
+      {
+        "step": 4,
+        "image_mass": 0.4844419089204166,
+        "concentration": 0.040250202512610356,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.013213180005550385
+      },
+      {
+        "step": 5,
+        "image_mass": 0.4896663049585186,
+        "concentration": 0.04141263998178202,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.012209448963403702
+      },
+      {
+        "step": 6,
+        "image_mass": 0.49535545424441807,
+        "concentration": 0.04313941691738821,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013946535997092724
+      },
+      {
+        "step": 7,
+        "image_mass": 0.5002093879156746,
+        "concentration": 0.04164530556991364,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014138278551399708
+      },
+      {
+        "step": 8,
+        "image_mass": 0.509670239611296,
+        "concentration": 0.04204672455935965,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012981557287275791
+      },
+      {
+        "step": 9,
+        "image_mass": 0.5124372273712652,
+        "concentration": 0.042601242529783145,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012683977372944355
+      },
+      {
+        "step": 10,
+        "image_mass": 0.5133278853318188,
+        "concentration": 0.04489124934128752,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012421353720128536
+      },
+      {
+        "step": 11,
+        "image_mass": 0.5089200968650403,
+        "concentration": 0.046573510975061905,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01253789197653532
+      },
+      {
+        "step": 12,
+        "image_mass": 0.5048702249769121,
+        "concentration": 0.049551393557680345,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011893096379935741
+      },
+      {
+        "step": 13,
+        "image_mass": 0.5060311449924484,
+        "concentration": 0.05207395421175165,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01157094445079565
+      },
+      {
+        "step": 14,
+        "image_mass": 0.5051742564101005,
+        "concentration": 0.05288080602149192,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011765800416469574
+      },
+      {
+        "step": 15,
+        "image_mass": 0.49925480817910284,
+        "concentration": 0.054318549852219844,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012383299879729748
+      },
+      {
+        "step": 16,
+        "image_mass": 0.5007220919360407,
+        "concentration": 0.05527914406439938,
+        "peak_xy_patch": [
+          5,
+          14
+        ],
+        "peak_value": 0.01228178758174181
+      },
+      {
+        "step": 17,
+        "image_mass": 0.492402478819713,
+        "concentration": 0.053916801416032833,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.013017408549785614
+      },
+      {
+        "step": 18,
+        "image_mass": 0.48762173084833194,
+        "concentration": 0.05508658720129589,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.012848429381847382
+      },
+      {
+        "step": 19,
+        "image_mass": 0.4846849730820395,
+        "concentration": 0.05438976171068244,
+        "peak_xy_patch": [
+          5,
+          14
+        ],
+        "peak_value": 0.012184943072497845
+      },
+      {
+        "step": 20,
+        "image_mass": 0.4879284476337489,
+        "concentration": 0.05258366850635465,
+        "peak_xy_patch": [
+          5,
+          14
+        ],
+        "peak_value": 0.012238502502441406
+      },
+      {
+        "step": 21,
+        "image_mass": 0.4852725662494777,
+        "concentration": 0.052043773512007285,
+        "peak_xy_patch": [
+          5,
+          14
+        ],
+        "peak_value": 0.012479349039494991
+      },
+      {
+        "step": 22,
+        "image_mass": 0.4854520066874102,
+        "concentration": 0.051547922627366294,
+        "peak_xy_patch": [
+          5,
+          14
+        ],
+        "peak_value": 0.012346466071903706
+      },
+      {
+        "step": 23,
+        "image_mass": 0.4778972585190786,
+        "concentration": 0.05153613902767307,
+        "peak_xy_patch": [
+          5,
+          14
+        ],
+        "peak_value": 0.012469249777495861
+      },
+      {
+        "step": 24,
+        "image_mass": 0.48008393721829634,
+        "concentration": 0.048527054192786245,
+        "peak_xy_patch": [
+          5,
+          14
+        ],
+        "peak_value": 0.012275353074073792
+      },
+      {
+        "step": 25,
+        "image_mass": 0.47320408989617135,
+        "concentration": 0.053554580939349394,
+        "peak_xy_patch": [
+          5,
+          14
+        ],
+        "peak_value": 0.011852656491100788
+      },
+      {
+        "step": 26,
+        "image_mass": 0.4755491443502251,
+        "concentration": 0.05202494144809966,
+        "peak_xy_patch": [
+          5,
+          14
+        ],
+        "peak_value": 0.01144616398960352
+      },
+      {
+        "step": 27,
+        "image_mass": 0.47864047913753893,
+        "concentration": 0.04625495422639814,
+        "peak_xy_patch": [
+          5,
+          14
+        ],
+        "peak_value": 0.011173896491527557
+      },
+      {
+        "step": 28,
+        "image_mass": 0.4788821824186016,
+        "concentration": 0.04571257956870933,
+        "peak_xy_patch": [
+          5,
+          14
+        ],
+        "peak_value": 0.010617476888000965
+      },
+      {
+        "step": 29,
+        "image_mass": 0.47557023214176297,
+        "concentration": 0.04177965703068531,
+        "peak_xy_patch": [
+          5,
+          14
+        ],
+        "peak_value": 0.00978792179375887
+      }
+    ],
+    "green_jacket": [
+      {
+        "step": 0,
+        "image_mass": 0.3753473574470263,
+        "concentration": 0.017285333208046927,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.007563049905002117
+      },
+      {
+        "step": 1,
+        "image_mass": 0.42036164781893604,
+        "concentration": 0.04428093531058863,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.019976457580924034
+      },
+      {
+        "step": 2,
+        "image_mass": 0.4487576951942174,
+        "concentration": 0.051409785894488746,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.015836352482438087
+      },
+      {
+        "step": 3,
+        "image_mass": 0.4498099669581279,
+        "concentration": 0.048225480538609755,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.01474857609719038
+      },
+      {
+        "step": 4,
+        "image_mass": 0.45624843395489734,
+        "concentration": 0.04688110740664664,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.015713606029748917
+      },
+      {
+        "step": 5,
+        "image_mass": 0.4615295981930103,
+        "concentration": 0.05048943432712494,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.014845738187432289
+      },
+      {
+        "step": 6,
+        "image_mass": 0.46636355489317793,
+        "concentration": 0.052159104510336896,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.016809578984975815
+      },
+      {
+        "step": 7,
+        "image_mass": 0.47054478111385833,
+        "concentration": 0.0483331131137853,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.017162973061203957
+      },
+      {
+        "step": 8,
+        "image_mass": 0.47912503089173697,
+        "concentration": 0.048327753329617584,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.015067283995449543
+      },
+      {
+        "step": 9,
+        "image_mass": 0.4826388263318222,
+        "concentration": 0.048827936540503436,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01464150846004486
+      },
+      {
+        "step": 10,
+        "image_mass": 0.4877308156574145,
+        "concentration": 0.05075926437664646,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013988984748721123
+      },
+      {
+        "step": 11,
+        "image_mass": 0.48773374331358355,
+        "concentration": 0.05083549032639045,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014142257161438465
+      },
+      {
+        "step": 12,
+        "image_mass": 0.4930998735653702,
+        "concentration": 0.051130867268739055,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013385171070694923
+      },
+      {
+        "step": 13,
+        "image_mass": 0.49293405437492765,
+        "concentration": 0.052617145722285485,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013262957334518433
+      },
+      {
+        "step": 14,
+        "image_mass": 0.49282976100221276,
+        "concentration": 0.052322065263076256,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013558703474700451
+      },
+      {
+        "step": 15,
+        "image_mass": 0.4865247934940271,
+        "concentration": 0.0529835286888195,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014352360740303993
+      },
+      {
+        "step": 16,
+        "image_mass": 0.4898944384767674,
+        "concentration": 0.05456773344942545,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013117320835590363
+      },
+      {
+        "step": 17,
+        "image_mass": 0.48156066649244167,
+        "concentration": 0.050731736343542555,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.015100417658686638
+      },
+      {
+        "step": 18,
+        "image_mass": 0.47967190900817513,
+        "concentration": 0.05181020658247859,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.015048123896121979
+      },
+      {
+        "step": 19,
+        "image_mass": 0.48033527698135003,
+        "concentration": 0.051789278680060336,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.013932427391409874
+      },
+      {
+        "step": 20,
+        "image_mass": 0.48178561870008707,
+        "concentration": 0.05197408360648026,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.012321221642196178
+      },
+      {
+        "step": 21,
+        "image_mass": 0.4818924632272683,
+        "concentration": 0.05092028255472636,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011198882944881916
+      },
+      {
+        "step": 22,
+        "image_mass": 0.48062377789756283,
+        "concentration": 0.04982833093901218,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011303262785077095
+      },
+      {
+        "step": 23,
+        "image_mass": 0.4744403291406343,
+        "concentration": 0.04821947578274244,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.012009373866021633
+      },
+      {
+        "step": 24,
+        "image_mass": 0.4701058791106334,
+        "concentration": 0.04765877790625428,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.01190637331455946
+      },
+      {
+        "step": 25,
+        "image_mass": 0.4706987871322781,
+        "concentration": 0.045488033359550095,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011649644002318382
+      },
+      {
+        "step": 26,
+        "image_mass": 0.4720131251378916,
+        "concentration": 0.04362849135640823,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011161230504512787
+      },
+      {
+        "step": 27,
+        "image_mass": 0.4692300570604857,
+        "concentration": 0.041312974971278615,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010905796661973
+      },
+      {
+        "step": 28,
+        "image_mass": 0.4658616229717154,
+        "concentration": 0.03834170583817387,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010016126558184624
+      },
+      {
+        "step": 29,
+        "image_mass": 0.4669002855953295,
+        "concentration": 0.03301353707654231,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.006676489021629095
+      }
+    ],
+    "eggplants": [
+      {
+        "step": 0,
+        "image_mass": 0.37942071455472615,
+        "concentration": 0.020217644997537976,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.007014567498117685
+      },
+      {
+        "step": 1,
+        "image_mass": 0.4211925732815871,
+        "concentration": 0.04587921295351882,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.019274357706308365
+      },
+      {
+        "step": 2,
+        "image_mass": 0.4453376333403867,
+        "concentration": 0.052370858350549554,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.01545746624469757
+      },
+      {
+        "step": 3,
+        "image_mass": 0.4423978095728671,
+        "concentration": 0.0482964371744371,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.014782574027776718
+      },
+      {
+        "step": 4,
+        "image_mass": 0.44779876971733756,
+        "concentration": 0.047634978080111856,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.01583738438785076
+      },
+      {
+        "step": 5,
+        "image_mass": 0.45284147730853874,
+        "concentration": 0.05285249739580877,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.01487443596124649
+      },
+      {
+        "step": 6,
+        "image_mass": 0.4566522448003525,
+        "concentration": 0.054236152841681706,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01688002608716488
+      },
+      {
+        "step": 7,
+        "image_mass": 0.4582647357456153,
+        "concentration": 0.050703560267671866,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.017681727185845375
+      },
+      {
+        "step": 8,
+        "image_mass": 0.4643638885609107,
+        "concentration": 0.052103280691600085,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.015996521338820457
+      },
+      {
+        "step": 9,
+        "image_mass": 0.4663570620905375,
+        "concentration": 0.05412379091236408,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.015660321339964867
+      },
+      {
+        "step": 10,
+        "image_mass": 0.47076401209051255,
+        "concentration": 0.059216183249367615,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.015159733593463898
+      },
+      {
+        "step": 11,
+        "image_mass": 0.4693475210660836,
+        "concentration": 0.0633050083312201,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.015476602129638195
+      },
+      {
+        "step": 12,
+        "image_mass": 0.47373433897155337,
+        "concentration": 0.06540929676938756,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014892120845615864
+      },
+      {
+        "step": 13,
+        "image_mass": 0.47700054293090943,
+        "concentration": 0.06968910906521142,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014778335578739643
+      },
+      {
+        "step": 14,
+        "image_mass": 0.47326994431205094,
+        "concentration": 0.0701997773312163,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.015199095010757446
+      },
+      {
+        "step": 15,
+        "image_mass": 0.46735114527109545,
+        "concentration": 0.07214119877615521,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.015811076387763023
+      },
+      {
+        "step": 16,
+        "image_mass": 0.46929124937742017,
+        "concentration": 0.07331265106368745,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014333806931972504
+      },
+      {
+        "step": 17,
+        "image_mass": 0.4588344294897979,
+        "concentration": 0.0710119747081066,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.016152532771229744
+      },
+      {
+        "step": 18,
+        "image_mass": 0.45598433769191615,
+        "concentration": 0.07126663242284126,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.01590028777718544
+      },
+      {
+        "step": 19,
+        "image_mass": 0.45704081245639827,
+        "concentration": 0.07226053987312164,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.014579261653125286
+      },
+      {
+        "step": 20,
+        "image_mass": 0.45753254617739003,
+        "concentration": 0.07120127157043599,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.012773419730365276
+      },
+      {
+        "step": 21,
+        "image_mass": 0.45980414855876006,
+        "concentration": 0.0696087663359034,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.013181510381400585
+      },
+      {
+        "step": 22,
+        "image_mass": 0.46046247267804574,
+        "concentration": 0.06886185099811604,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.013382486999034882
+      },
+      {
+        "step": 23,
+        "image_mass": 0.4533175662654685,
+        "concentration": 0.06481587100754238,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.014408587478101254
+      },
+      {
+        "step": 24,
+        "image_mass": 0.44998008442053106,
+        "concentration": 0.06517130855459063,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.01453371811658144
+      },
+      {
+        "step": 25,
+        "image_mass": 0.44810279765806627,
+        "concentration": 0.06400193648476249,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.01440481562167406
+      },
+      {
+        "step": 26,
+        "image_mass": 0.4531962159235263,
+        "concentration": 0.06422504191146372,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.01392434909939766
+      },
+      {
+        "step": 27,
+        "image_mass": 0.4537652166764019,
+        "concentration": 0.06279039464771219,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.013648602180182934
+      },
+      {
+        "step": 28,
+        "image_mass": 0.451054226825363,
+        "concentration": 0.06052997240435154,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.012320109643042088
+      },
+      {
+        "step": 29,
+        "image_mass": 0.4509252177522285,
+        "concentration": 0.05471758788998948,
+        "peak_xy_patch": [
+          27,
+          20
+        ],
+        "peak_value": 0.008361116982996464
+      }
+    ],
+    "boy": [
+      {
+        "step": 0,
+        "image_mass": 0.3725649521511514,
+        "concentration": 0.022417107052907226,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.008307216688990593
+      },
+      {
+        "step": 1,
+        "image_mass": 0.40690428248490207,
+        "concentration": 0.052996877388868824,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.021109240129590034
+      },
+      {
+        "step": 2,
+        "image_mass": 0.4336544419347774,
+        "concentration": 0.060821787919182246,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.016011763364076614
+      },
+      {
+        "step": 3,
+        "image_mass": 0.4303656670235796,
+        "concentration": 0.058126784484393124,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.015701208263635635
+      },
+      {
+        "step": 4,
+        "image_mass": 0.4351352255907841,
+        "concentration": 0.057780998619778035,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.01651906967163086
+      },
+      {
+        "step": 5,
+        "image_mass": 0.4388769474462606,
+        "concentration": 0.06081117501853228,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.015435530804097652
+      },
+      {
+        "step": 6,
+        "image_mass": 0.4450483751570573,
+        "concentration": 0.06377398008225643,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.016946638002991676
+      },
+      {
+        "step": 7,
+        "image_mass": 0.4487272364785895,
+        "concentration": 0.05960795440064248,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01780804432928562
+      },
+      {
+        "step": 8,
+        "image_mass": 0.46068937196105253,
+        "concentration": 0.058980755663191275,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.015530205331742764
+      },
+      {
+        "step": 9,
+        "image_mass": 0.4632867030741181,
+        "concentration": 0.05757044817908641,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014987424947321415
+      },
+      {
+        "step": 10,
+        "image_mass": 0.46813017953536473,
+        "concentration": 0.060122408391687476,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014230364002287388
+      },
+      {
+        "step": 11,
+        "image_mass": 0.46559891395736486,
+        "concentration": 0.06030852682240817,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01423054188489914
+      },
+      {
+        "step": 12,
+        "image_mass": 0.47083914693212137,
+        "concentration": 0.06092943071767476,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013466314412653446
+      },
+      {
+        "step": 13,
+        "image_mass": 0.4698043241369305,
+        "concentration": 0.06213465108548222,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013206266798079014
+      },
+      {
+        "step": 14,
+        "image_mass": 0.4712173860898474,
+        "concentration": 0.06154091634894354,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013333167880773544
+      },
+      {
+        "step": 15,
+        "image_mass": 0.4651226900605252,
+        "concentration": 0.06054247810345004,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013770615682005882
+      },
+      {
+        "step": 16,
+        "image_mass": 0.4710421667841729,
+        "concentration": 0.061754769547655464,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012510540895164013
+      },
+      {
+        "step": 17,
+        "image_mass": 0.4651541123894276,
+        "concentration": 0.05874285679563518,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.014269358478486538
+      },
+      {
+        "step": 18,
+        "image_mass": 0.4644113939575618,
+        "concentration": 0.05918703656626767,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.014237217605113983
+      },
+      {
+        "step": 19,
+        "image_mass": 0.46687022986589,
+        "concentration": 0.059549388970302264,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.013249370269477367
+      },
+      {
+        "step": 20,
+        "image_mass": 0.4705274402949726,
+        "concentration": 0.05962514030769328,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.011848594062030315
+      },
+      {
+        "step": 21,
+        "image_mass": 0.4731463311763946,
+        "concentration": 0.058004449332893504,
+        "peak_xy_patch": [
+          5,
+          16
+        ],
+        "peak_value": 0.011005084030330181
+      },
+      {
+        "step": 22,
+        "image_mass": 0.47300761894439347,
+        "concentration": 0.0575305939411167,
+        "peak_xy_patch": [
+          5,
+          16
+        ],
+        "peak_value": 0.011543361470103264
+      },
+      {
+        "step": 23,
+        "image_mass": 0.467001785436878,
+        "concentration": 0.054025229945748765,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.01161719299852848
+      },
+      {
+        "step": 24,
+        "image_mass": 0.4665052057680441,
+        "concentration": 0.054219918436256176,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011857114732265472
+      },
+      {
+        "step": 25,
+        "image_mass": 0.4666996722226031,
+        "concentration": 0.05441875308563049,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.01166481152176857
+      },
+      {
+        "step": 26,
+        "image_mass": 0.4717008886509575,
+        "concentration": 0.056162216755246575,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.01126924343407154
+      },
+      {
+        "step": 27,
+        "image_mass": 0.46957267708785366,
+        "concentration": 0.055750698220891404,
+        "peak_xy_patch": [
+          5,
+          16
+        ],
+        "peak_value": 0.011548317968845367
+      },
+      {
+        "step": 28,
+        "image_mass": 0.4692977518425323,
+        "concentration": 0.05753488193041645,
+        "peak_xy_patch": [
+          5,
+          16
+        ],
+        "peak_value": 0.012167487293481827
+      },
+      {
+        "step": 29,
+        "image_mass": 0.46468285060836934,
+        "concentration": 0.053371310377983816,
+        "peak_xy_patch": [
+          5,
+          16
+        ],
+        "peak_value": 0.00981766264885664
+      }
+    ],
+    "red_backpack": [
+      {
+        "step": 0,
+        "image_mass": 0.37241514155175537,
+        "concentration": 0.020647236374095046,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.006389816757291555
+      },
+      {
+        "step": 1,
+        "image_mass": 0.4079443044902291,
+        "concentration": 0.043211107725069864,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.0168121550232172
+      },
+      {
+        "step": 2,
+        "image_mass": 0.4315889505960513,
+        "concentration": 0.049041859428874734,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.012898401357233524
+      },
+      {
+        "step": 3,
+        "image_mass": 0.43190639586828183,
+        "concentration": 0.04875017888308142,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.012343480251729488
+      },
+      {
+        "step": 4,
+        "image_mass": 0.4385981633531628,
+        "concentration": 0.04902312246966334,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.013268880546092987
+      },
+      {
+        "step": 5,
+        "image_mass": 0.4438919187086867,
+        "concentration": 0.05443150602749047,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.012587088160216808
+      },
+      {
+        "step": 6,
+        "image_mass": 0.44863804946362507,
+        "concentration": 0.058933133341607435,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01404531765729189
+      },
+      {
+        "step": 7,
+        "image_mass": 0.4524847019201843,
+        "concentration": 0.05944299961915167,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.015064277686178684
+      },
+      {
+        "step": 8,
+        "image_mass": 0.4586736205383204,
+        "concentration": 0.06403959823216654,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013467521406710148
+      },
+      {
+        "step": 9,
+        "image_mass": 0.46103485841013025,
+        "concentration": 0.06557611170479694,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013330072164535522
+      },
+      {
+        "step": 10,
+        "image_mass": 0.46609179105143994,
+        "concentration": 0.06818209221580707,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012894381769001484
+      },
+      {
+        "step": 11,
+        "image_mass": 0.46625397010939196,
+        "concentration": 0.06808483927452547,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013110498897731304
+      },
+      {
+        "step": 12,
+        "image_mass": 0.4716688185435487,
+        "concentration": 0.06955328028433605,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012626372277736664
+      },
+      {
+        "step": 13,
+        "image_mass": 0.47274631750769913,
+        "concentration": 0.0710665233559824,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012421570718288422
+      },
+      {
+        "step": 14,
+        "image_mass": 0.47276234718447085,
+        "concentration": 0.0713049368978137,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01270519569516182
+      },
+      {
+        "step": 15,
+        "image_mass": 0.4687004352308577,
+        "concentration": 0.07168808210528466,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013035264797508717
+      },
+      {
+        "step": 16,
+        "image_mass": 0.4726707257941598,
+        "concentration": 0.07110470266431645,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01192536111921072
+      },
+      {
+        "step": 17,
+        "image_mass": 0.46620116544363555,
+        "concentration": 0.06969472883787509,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.01334445457905531
+      },
+      {
+        "step": 18,
+        "image_mass": 0.46734948121593334,
+        "concentration": 0.07235554080128292,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.013205200433731079
+      },
+      {
+        "step": 19,
+        "image_mass": 0.46770190048846416,
+        "concentration": 0.07108362228974219,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.012184090912342072
+      },
+      {
+        "step": 20,
+        "image_mass": 0.4694248810556019,
+        "concentration": 0.07007001785165035,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.010721187107264996
+      },
+      {
+        "step": 21,
+        "image_mass": 0.4702517823316157,
+        "concentration": 0.06752527854140378,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010210838168859482
+      },
+      {
+        "step": 22,
+        "image_mass": 0.46941067576699425,
+        "concentration": 0.06635537684599202,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010378939099609852
+      },
+      {
+        "step": 23,
+        "image_mass": 0.463806095867767,
+        "concentration": 0.06353423250521695,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.01108324620872736
+      },
+      {
+        "step": 24,
+        "image_mass": 0.46230054735497106,
+        "concentration": 0.06352317154854081,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011126279830932617
+      },
+      {
+        "step": 25,
+        "image_mass": 0.460437937581446,
+        "concentration": 0.06325448691806912,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.0109575679525733
+      },
+      {
+        "step": 26,
+        "image_mass": 0.46247278645751067,
+        "concentration": 0.06258325071881432,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010616871528327465
+      },
+      {
+        "step": 27,
+        "image_mass": 0.4601973039971199,
+        "concentration": 0.05764875087971666,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.0103215416893363
+      },
+      {
+        "step": 28,
+        "image_mass": 0.45712055383773986,
+        "concentration": 0.05771901542676516,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009181681089103222
+      },
+      {
+        "step": 29,
+        "image_mass": 0.45679935824591666,
+        "concentration": 0.05167744847496092,
+        "peak_xy_patch": [
+          31,
+          28
+        ],
+        "peak_value": 0.005596978589892387
+      }
+    ],
+    "tiptoe": [
+      {
+        "step": 0,
+        "image_mass": 0.36010311885911506,
+        "concentration": 0.015267236744014978,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.005811437498778105
+      },
+      {
+        "step": 1,
+        "image_mass": 0.3974534743465483,
+        "concentration": 0.03718563201109415,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.015360444784164429
+      },
+      {
+        "step": 2,
+        "image_mass": 0.42128855115151964,
+        "concentration": 0.04340061463763145,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.01184957753866911
+      },
+      {
+        "step": 3,
+        "image_mass": 0.4179033717373386,
+        "concentration": 0.040731952842715136,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.01176117081195116
+      },
+      {
+        "step": 4,
+        "image_mass": 0.4216987197723938,
+        "concentration": 0.040126069520574625,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.01249699667096138
+      },
+      {
+        "step": 5,
+        "image_mass": 0.42457185704552103,
+        "concentration": 0.04154891640770764,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.011748463846743107
+      },
+      {
+        "step": 6,
+        "image_mass": 0.4277925735950703,
+        "concentration": 0.041210757762410344,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012472816742956638
+      },
+      {
+        "step": 7,
+        "image_mass": 0.43099995437660255,
+        "concentration": 0.0371107735259818,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012821455486118793
+      },
+      {
+        "step": 8,
+        "image_mass": 0.43098040111362934,
+        "concentration": 0.03551664165043111,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010943030007183552
+      },
+      {
+        "step": 9,
+        "image_mass": 0.43203228534548543,
+        "concentration": 0.034774071505804804,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010782781057059765
+      },
+      {
+        "step": 10,
+        "image_mass": 0.4400768127379706,
+        "concentration": 0.03649235129758699,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010360403917729855
+      },
+      {
+        "step": 11,
+        "image_mass": 0.4439274421456503,
+        "concentration": 0.036457623078523516,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010333971120417118
+      },
+      {
+        "step": 12,
+        "image_mass": 0.4544196171773365,
+        "concentration": 0.035714522446738006,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.009886058047413826
+      },
+      {
+        "step": 13,
+        "image_mass": 0.45763754668587353,
+        "concentration": 0.03876239859870567,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.009520520456135273
+      },
+      {
+        "step": 14,
+        "image_mass": 0.465287165628979,
+        "concentration": 0.038394604303348956,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.00958496704697609
+      },
+      {
+        "step": 15,
+        "image_mass": 0.4666730626486242,
+        "concentration": 0.036615879768337356,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.009743419475853443
+      },
+      {
+        "step": 16,
+        "image_mass": 0.46887080863234587,
+        "concentration": 0.03622603010471592,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.009083977900445461
+      },
+      {
+        "step": 17,
+        "image_mass": 0.4638709624268813,
+        "concentration": 0.034568582796977165,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.009941176511347294
+      },
+      {
+        "step": 18,
+        "image_mass": 0.46174546667316463,
+        "concentration": 0.03502664209361506,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.00975708570331335
+      },
+      {
+        "step": 19,
+        "image_mass": 0.46362366678658873,
+        "concentration": 0.034237617980947044,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.009029231034219265
+      },
+      {
+        "step": 20,
+        "image_mass": 0.4653489086922491,
+        "concentration": 0.03399715244283341,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.008081366308033466
+      },
+      {
+        "step": 21,
+        "image_mass": 0.46628042159136385,
+        "concentration": 0.0301182369012023,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.008018430322408676
+      },
+      {
+        "step": 22,
+        "image_mass": 0.4599745462764986,
+        "concentration": 0.029580892998357866,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.0084566380828619
+      },
+      {
+        "step": 23,
+        "image_mass": 0.4514490826841211,
+        "concentration": 0.03060477250892557,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009309425950050354
+      },
+      {
+        "step": 24,
+        "image_mass": 0.445030143528129,
+        "concentration": 0.02751551113464379,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009622770361602306
+      },
+      {
+        "step": 25,
+        "image_mass": 0.4499056418717373,
+        "concentration": 0.025114451086513667,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009359992109239101
+      },
+      {
+        "step": 26,
+        "image_mass": 0.4577528376976261,
+        "concentration": 0.024324505941136665,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009303126484155655
+      },
+      {
+        "step": 27,
+        "image_mass": 0.45083415928820614,
+        "concentration": 0.027931202672634048,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.00943110790103674
+      },
+      {
+        "step": 28,
+        "image_mass": 0.4426416290079942,
+        "concentration": 0.04394451244750974,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.00939215812832117
+      },
+      {
+        "step": 29,
+        "image_mass": 0.44247789538349025,
+        "concentration": 0.04886329228454622,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.006706330459564924
+      }
+    ],
+    "pointing": [
+      {
+        "step": 0,
+        "image_mass": 0.38148241987801157,
+        "concentration": 0.01411672625477911,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.007397795096039772
+      },
+      {
+        "step": 1,
+        "image_mass": 0.3910266213933937,
+        "concentration": 0.03568831016823415,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.016152163967490196
+      },
+      {
+        "step": 2,
+        "image_mass": 0.41347790430882014,
+        "concentration": 0.03972548282304411,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.011754750274121761
+      },
+      {
+        "step": 3,
+        "image_mass": 0.41400322160916403,
+        "concentration": 0.03652313331427748,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.011292762123048306
+      },
+      {
+        "step": 4,
+        "image_mass": 0.41965863546647597,
+        "concentration": 0.034581508516107196,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.012030361220240593
+      },
+      {
+        "step": 5,
+        "image_mass": 0.42634860338876024,
+        "concentration": 0.035998891925513976,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.011254986748099327
+      },
+      {
+        "step": 6,
+        "image_mass": 0.4364945801644353,
+        "concentration": 0.035611625310102646,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012464508414268494
+      },
+      {
+        "step": 7,
+        "image_mass": 0.44110164332960267,
+        "concentration": 0.034239444708183076,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012843508273363113
+      },
+      {
+        "step": 8,
+        "image_mass": 0.4462439256167272,
+        "concentration": 0.03559048662892139,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011384563520550728
+      },
+      {
+        "step": 9,
+        "image_mass": 0.4458206476701889,
+        "concentration": 0.03850419347145961,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011513158679008484
+      },
+      {
+        "step": 10,
+        "image_mass": 0.45259843532403465,
+        "concentration": 0.042569109231443525,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011338857933878899
+      },
+      {
+        "step": 11,
+        "image_mass": 0.4535895715816878,
+        "concentration": 0.04247200211161428,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011510351672768593
+      },
+      {
+        "step": 12,
+        "image_mass": 0.4576238571316935,
+        "concentration": 0.04225809311618478,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011160574853420258
+      },
+      {
+        "step": 13,
+        "image_mass": 0.45752702791651245,
+        "concentration": 0.04309720834063968,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011102177202701569
+      },
+      {
+        "step": 14,
+        "image_mass": 0.45788886956870556,
+        "concentration": 0.04221563705850884,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011312444694340229
+      },
+      {
+        "step": 15,
+        "image_mass": 0.45490780494583305,
+        "concentration": 0.04188919938929336,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011733517982065678
+      },
+      {
+        "step": 16,
+        "image_mass": 0.4573395683109993,
+        "concentration": 0.044231972424631616,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010904022492468357
+      },
+      {
+        "step": 17,
+        "image_mass": 0.450730986558483,
+        "concentration": 0.04134956964878678,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.0124000683426857
+      },
+      {
+        "step": 18,
+        "image_mass": 0.4484181891166372,
+        "concentration": 0.04132571431433785,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.012365737929940224
+      },
+      {
+        "step": 19,
+        "image_mass": 0.4500116551062092,
+        "concentration": 0.04066106181193019,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.011506001465022564
+      },
+      {
+        "step": 20,
+        "image_mass": 0.452547494933242,
+        "concentration": 0.03981428530742093,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.010340874083340168
+      },
+      {
+        "step": 21,
+        "image_mass": 0.455546453667921,
+        "concentration": 0.039990221888862476,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009980219416320324
+      },
+      {
+        "step": 22,
+        "image_mass": 0.4535863593046088,
+        "concentration": 0.04209605639914993,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010259872302412987
+      },
+      {
+        "step": 23,
+        "image_mass": 0.44743360963184386,
+        "concentration": 0.04079602620754952,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.01102809514850378
+      },
+      {
+        "step": 24,
+        "image_mass": 0.4452082903444534,
+        "concentration": 0.04143635774594934,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011200418695807457
+      },
+      {
+        "step": 25,
+        "image_mass": 0.44884469493990764,
+        "concentration": 0.042459611421285515,
+        "peak_xy_patch": [
+          11,
+          0
+        ],
+        "peak_value": 0.01113636139780283
+      },
+      {
+        "step": 26,
+        "image_mass": 0.45435361631098203,
+        "concentration": 0.04495528022966033,
+        "peak_xy_patch": [
+          11,
+          0
+        ],
+        "peak_value": 0.011788791045546532
+      },
+      {
+        "step": 27,
+        "image_mass": 0.4516314945794875,
+        "concentration": 0.045644870883007393,
+        "peak_xy_patch": [
+          11,
+          0
+        ],
+        "peak_value": 0.011959264986217022
+      },
+      {
+        "step": 28,
+        "image_mass": 0.4458606826228788,
+        "concentration": 0.04577375729462563,
+        "peak_xy_patch": [
+          11,
+          0
+        ],
+        "peak_value": 0.012262389063835144
+      },
+      {
+        "step": 29,
+        "image_mass": 0.4432500166876707,
+        "concentration": 0.04410008265305332,
+        "peak_xy_patch": [
+          11,
+          0
+        ],
+        "peak_value": 0.0118261044844985
+      }
+    ],
+    "yellow_bananas": [
+      {
+        "step": 0,
+        "image_mass": 0.3709114611847326,
+        "concentration": 0.014058254043583407,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.006393019109964371
+      },
+      {
+        "step": 1,
+        "image_mass": 0.4091350449307356,
+        "concentration": 0.04090891483496095,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.019510965794324875
+      },
+      {
+        "step": 2,
+        "image_mass": 0.43456647037237417,
+        "concentration": 0.0477237699032268,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.015474422834813595
+      },
+      {
+        "step": 3,
+        "image_mass": 0.4350776414066786,
+        "concentration": 0.045470177466570116,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.013933494687080383
+      },
+      {
+        "step": 4,
+        "image_mass": 0.4413054690667195,
+        "concentration": 0.04438814261333679,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.014808567240834236
+      },
+      {
+        "step": 5,
+        "image_mass": 0.4468007929826854,
+        "concentration": 0.04857665699864677,
+        "peak_xy_patch": [
+          28,
+          1
+        ],
+        "peak_value": 0.013803411275148392
+      },
+      {
+        "step": 6,
+        "image_mass": 0.4527083754801424,
+        "concentration": 0.05024389870177537,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.016195740550756454
+      },
+      {
+        "step": 7,
+        "image_mass": 0.45741493364039343,
+        "concentration": 0.047931831963067495,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01693824864923954
+      },
+      {
+        "step": 8,
+        "image_mass": 0.46590562612982467,
+        "concentration": 0.05113660708694023,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.015428949147462845
+      },
+      {
+        "step": 9,
+        "image_mass": 0.46916204795707017,
+        "concentration": 0.05225313551510369,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.015264533460140228
+      },
+      {
+        "step": 10,
+        "image_mass": 0.4739462825236842,
+        "concentration": 0.054873602839599855,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014713744632899761
+      },
+      {
+        "step": 11,
+        "image_mass": 0.47460838613915257,
+        "concentration": 0.055660116719968955,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014934970065951347
+      },
+      {
+        "step": 12,
+        "image_mass": 0.48137154897267465,
+        "concentration": 0.05693855519772206,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014313309453427792
+      },
+      {
+        "step": 13,
+        "image_mass": 0.4838049766549375,
+        "concentration": 0.05937799621976603,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014066720381379128
+      },
+      {
+        "step": 14,
+        "image_mass": 0.4861128152842866,
+        "concentration": 0.05812434806021127,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01435355469584465
+      },
+      {
+        "step": 15,
+        "image_mass": 0.48171566614473704,
+        "concentration": 0.0563729383860776,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014767138287425041
+      },
+      {
+        "step": 16,
+        "image_mass": 0.4859333231433993,
+        "concentration": 0.05657524817896509,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013493902049958706
+      },
+      {
+        "step": 17,
+        "image_mass": 0.4787781625491334,
+        "concentration": 0.05386774597999855,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.01498815044760704
+      },
+      {
+        "step": 18,
+        "image_mass": 0.4781473355105845,
+        "concentration": 0.055502948311411004,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.014616112224757671
+      },
+      {
+        "step": 19,
+        "image_mass": 0.48042556236032397,
+        "concentration": 0.05561629352548103,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.013371003791689873
+      },
+      {
+        "step": 20,
+        "image_mass": 0.4820389754167991,
+        "concentration": 0.057255859111456364,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.011655631475150585
+      },
+      {
+        "step": 21,
+        "image_mass": 0.48486246752145234,
+        "concentration": 0.05621316219289907,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.012040633708238602
+      },
+      {
+        "step": 22,
+        "image_mass": 0.48449571456876583,
+        "concentration": 0.055637575489189794,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.0122599545866251
+      },
+      {
+        "step": 23,
+        "image_mass": 0.47933407610980794,
+        "concentration": 0.053089976858267995,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.01309196650981903
+      },
+      {
+        "step": 24,
+        "image_mass": 0.47757522188476287,
+        "concentration": 0.05384126163634373,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.01307661086320877
+      },
+      {
+        "step": 25,
+        "image_mass": 0.4745086903858464,
+        "concentration": 0.05390477162282792,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.012963070534169674
+      },
+      {
+        "step": 26,
+        "image_mass": 0.47516844465280883,
+        "concentration": 0.05381530157163905,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.012640566565096378
+      },
+      {
+        "step": 27,
+        "image_mass": 0.4696204803767614,
+        "concentration": 0.05160655549528481,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.012325555086135864
+      },
+      {
+        "step": 28,
+        "image_mass": 0.4666741601249669,
+        "concentration": 0.04844373434628124,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.011099707335233688
+      },
+      {
+        "step": 29,
+        "image_mass": 0.4623629510606406,
+        "concentration": 0.04232610547518667,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.007123026996850967
+      }
+    ],
+    "awnings": [
+      {
+        "step": 0,
+        "image_mass": 0.3929190396302147,
+        "concentration": 0.018349047728220325,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.006668501533567905
+      },
+      {
+        "step": 1,
+        "image_mass": 0.4384413551451871,
+        "concentration": 0.04213409945038904,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.017875347286462784
+      },
+      {
+        "step": 2,
+        "image_mass": 0.46392819329048507,
+        "concentration": 0.048637028208638466,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.014125330373644829
+      },
+      {
+        "step": 3,
+        "image_mass": 0.4646045392291853,
+        "concentration": 0.04769495671769963,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.012258789502084255
+      },
+      {
+        "step": 4,
+        "image_mass": 0.47059946128865704,
+        "concentration": 0.048064249905914624,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.012965851463377476
+      },
+      {
+        "step": 5,
+        "image_mass": 0.47418668678437825,
+        "concentration": 0.05046045960679546,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.012236391194164753
+      },
+      {
+        "step": 6,
+        "image_mass": 0.47960389193031006,
+        "concentration": 0.050239290730436204,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014207120053470135
+      },
+      {
+        "step": 7,
+        "image_mass": 0.4851960137311835,
+        "concentration": 0.047024409181252724,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014340291731059551
+      },
+      {
+        "step": 8,
+        "image_mass": 0.49257994270010386,
+        "concentration": 0.04719028698502847,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012684018351137638
+      },
+      {
+        "step": 9,
+        "image_mass": 0.4939188338321401,
+        "concentration": 0.04676474260744279,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012246022932231426
+      },
+      {
+        "step": 10,
+        "image_mass": 0.4977581718703732,
+        "concentration": 0.04766610604736199,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011714944615960121
+      },
+      {
+        "step": 11,
+        "image_mass": 0.4973619797383435,
+        "concentration": 0.04720966004753979,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011747533455491066
+      },
+      {
+        "step": 12,
+        "image_mass": 0.4991527292295359,
+        "concentration": 0.04653565263203119,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01110824104398489
+      },
+      {
+        "step": 13,
+        "image_mass": 0.49906997082871385,
+        "concentration": 0.046463975159828586,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01089155301451683
+      },
+      {
+        "step": 14,
+        "image_mass": 0.49877856543753296,
+        "concentration": 0.04564536765617633,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011048747226595879
+      },
+      {
+        "step": 15,
+        "image_mass": 0.49088647894677706,
+        "concentration": 0.04546261126995099,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01153363287448883
+      },
+      {
+        "step": 16,
+        "image_mass": 0.49274781288113445,
+        "concentration": 0.04585397515362466,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010627280920743942
+      },
+      {
+        "step": 17,
+        "image_mass": 0.48765251293662004,
+        "concentration": 0.04353748260281376,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.012070361524820328
+      },
+      {
+        "step": 18,
+        "image_mass": 0.4866054776648525,
+        "concentration": 0.04388951863335211,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.011936822906136513
+      },
+      {
+        "step": 19,
+        "image_mass": 0.4883363136614207,
+        "concentration": 0.04438785344986673,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.011034318245947361
+      },
+      {
+        "step": 20,
+        "image_mass": 0.49011009410605766,
+        "concentration": 0.0442040602724566,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.009827064350247383
+      },
+      {
+        "step": 21,
+        "image_mass": 0.48964432276261505,
+        "concentration": 0.04318970638554587,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009585876017808914
+      },
+      {
+        "step": 22,
+        "image_mass": 0.48791796357545536,
+        "concentration": 0.04219774686407263,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.00978100672364235
+      },
+      {
+        "step": 23,
+        "image_mass": 0.4832456793956226,
+        "concentration": 0.04047016489679889,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010523621924221516
+      },
+      {
+        "step": 24,
+        "image_mass": 0.48025366134243086,
+        "concentration": 0.040384257398243584,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010539991781115532
+      },
+      {
+        "step": 25,
+        "image_mass": 0.4790655886463355,
+        "concentration": 0.040381120627806855,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010407916270196438
+      },
+      {
+        "step": 26,
+        "image_mass": 0.48037372578983195,
+        "concentration": 0.04105516558535138,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.010067768394947052
+      },
+      {
+        "step": 27,
+        "image_mass": 0.4768761588493362,
+        "concentration": 0.04127888016919612,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009989399462938309
+      },
+      {
+        "step": 28,
+        "image_mass": 0.4775627387134591,
+        "concentration": 0.04166805336127566,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.00920202024281025
+      },
+      {
+        "step": 29,
+        "image_mass": 0.47707964829169214,
+        "concentration": 0.0404125354867092,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.006262814626097679
+      }
+    ],
+    "floor": [
+      {
+        "step": 0,
+        "image_mass": 0.3947601563704666,
+        "concentration": 0.023744653337823607,
+        "peak_xy_patch": [
+          26,
+          1
+        ],
+        "peak_value": 0.008293521590530872
+      },
+      {
+        "step": 1,
+        "image_mass": 0.44299826824862976,
+        "concentration": 0.04557052659259009,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.018239175900816917
+      },
+      {
+        "step": 2,
+        "image_mass": 0.47342614839726593,
+        "concentration": 0.05289750106819158,
+        "peak_xy_patch": [
+          4,
+          3
+        ],
+        "peak_value": 0.014099068008363247
+      },
+      {
+        "step": 3,
+        "image_mass": 0.46972641278989613,
+        "concentration": 0.050412506356497855,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.013258364982903004
+      },
+      {
+        "step": 4,
+        "image_mass": 0.4754791068698978,
+        "concentration": 0.04997764352474743,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.013512976467609406
+      },
+      {
+        "step": 5,
+        "image_mass": 0.4776426656899275,
+        "concentration": 0.052887503660761115,
+        "peak_xy_patch": [
+          0,
+          23
+        ],
+        "peak_value": 0.012654274702072144
+      },
+      {
+        "step": 6,
+        "image_mass": 0.48268914451182354,
+        "concentration": 0.05387391895268345,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.014016854576766491
+      },
+      {
+        "step": 7,
+        "image_mass": 0.4886293837771518,
+        "concentration": 0.05134760191247767,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.013978901319205761
+      },
+      {
+        "step": 8,
+        "image_mass": 0.4960119307797868,
+        "concentration": 0.04955441927186499,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.012166888453066349
+      },
+      {
+        "step": 9,
+        "image_mass": 0.4995509018335724,
+        "concentration": 0.049644059963329434,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011716707609593868
+      },
+      {
+        "step": 10,
+        "image_mass": 0.5053803233895451,
+        "concentration": 0.0519373919213999,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.011229388415813446
+      },
+      {
+        "step": 11,
+        "image_mass": 0.5056251481582876,
+        "concentration": 0.05142507479530567,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01128136646002531
+      },
+      {
+        "step": 12,
+        "image_mass": 0.5107498261058936,
+        "concentration": 0.05202482632229133,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.01067804079502821
+      },
+      {
+        "step": 13,
+        "image_mass": 0.5111138654174283,
+        "concentration": 0.051681853542353995,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010480140335857868
+      },
+      {
+        "step": 14,
+        "image_mass": 0.5131431616755435,
+        "concentration": 0.05161292351045754,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010520429350435734
+      },
+      {
+        "step": 15,
+        "image_mass": 0.5082329597062198,
+        "concentration": 0.05008313196853875,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.010774173773825169
+      },
+      {
+        "step": 16,
+        "image_mass": 0.5126216202042997,
+        "concentration": 0.05142348044944656,
+        "peak_xy_patch": [
+          4,
+          9
+        ],
+        "peak_value": 0.009780017659068108
+      },
+      {
+        "step": 17,
+        "image_mass": 0.5033979352156166,
+        "concentration": 0.049374705725518275,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.011062134988605976
+      },
+      {
+        "step": 18,
+        "image_mass": 0.4967501407227246,
+        "concentration": 0.050202519534602974,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.010912269353866577
+      },
+      {
+        "step": 19,
+        "image_mass": 0.4935042544530006,
+        "concentration": 0.04935679970314655,
+        "peak_xy_patch": [
+          4,
+          10
+        ],
+        "peak_value": 0.009939055889844894
+      },
+      {
+        "step": 20,
+        "image_mass": 0.493511300868704,
+        "concentration": 0.04815803783774375,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.008859994821250439
+      },
+      {
+        "step": 21,
+        "image_mass": 0.49401500917156227,
+        "concentration": 0.04646869334915893,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.008628953248262405
+      },
+      {
+        "step": 22,
+        "image_mass": 0.4939657087379601,
+        "concentration": 0.046181441833654024,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.008811461739242077
+      },
+      {
+        "step": 23,
+        "image_mass": 0.48947953213064466,
+        "concentration": 0.042859871189511956,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009175132028758526
+      },
+      {
+        "step": 24,
+        "image_mass": 0.490439029657864,
+        "concentration": 0.041671068940612344,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.009167103096842766
+      },
+      {
+        "step": 25,
+        "image_mass": 0.48939573898678645,
+        "concentration": 0.04100270157642383,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.008989500813186169
+      },
+      {
+        "step": 26,
+        "image_mass": 0.4935209118411876,
+        "concentration": 0.03996894549365426,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.008560944348573685
+      },
+      {
+        "step": 27,
+        "image_mass": 0.4842272501264233,
+        "concentration": 0.03096755936811879,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.008356827311217785
+      },
+      {
+        "step": 28,
+        "image_mass": 0.48506690048088785,
+        "concentration": 0.030739047787848417,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.007734117563813925
+      },
+      {
+        "step": 29,
+        "image_mass": 0.4888186136522563,
+        "concentration": 0.031242296365728173,
+        "peak_xy_patch": [
+          15,
+          10
+        ],
+        "peak_value": 0.005879335105419159
+      }
+    ]
+  }
+}

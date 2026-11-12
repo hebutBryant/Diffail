@@ -1,0 +1,47 @@
+{
+  "model_id": "flux_2_klein_9b",
+  "model": {
+    "path": "/home/hdd4/lpz/FLUX.2-klein-9B",
+    "requested_path": "/home/hdd4/lpz/FLUX.2-klein",
+    "pipeline": "Flux2KleinPipeline",
+    "architecture": "9B distilled rectified-flow transformer, Qwen3 causal text encoder, AutoencoderKLFlux2",
+    "dtype": "bfloat16",
+    "steps": 4,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image and image-to-image/multi-reference editing",
+    "note": "Requested directory was absent; this complete local FLUX.2-klein-9B directory is used as a same-family fallback."
+  },
+  "scenario": {
+    "id": "count_high",
+    "factor": "object_count",
+    "level": "high",
+    "control_group": "count",
+    "prompt": "A clean studio photograph of exactly six red apples arranged in two rows of three on a white table, every apple separate and fully visible, no other fruit and no duplicates.",
+    "objects": [
+      {
+        "class": "apple",
+        "count": 6,
+        "color": "red"
+      }
+    ],
+    "relations": []
+  },
+  "seed": 0,
+  "prompt": "A clean studio photograph of exactly six red apples arranged in two rows of three on a white table, every apple separate and fully visible, no other fruit and no duplicates.",
+  "call_kwargs": {
+    "prompt": "A clean studio photograph of exactly six red apples arranged in two rows of three on a white table, every apple separate and fully visible, no other fruit and no duplicates.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x7ead93fa4490>",
+    "num_inference_steps": 4,
+    "guidance_scale": 1.0
+  },
+  "elapsed_seconds": 29.846,
+  "image_sha256": "974e08fb9fee7533b33eff80e8fec216913de57158a948595c5a6e086fbeaed8",
+  "created_utc": "2026-11-12T07:13:22Z"
+}

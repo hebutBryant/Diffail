@@ -1,0 +1,74 @@
+{
+  "model_id": "qwen_image_2_1",
+  "model": {
+    "path": "/home/hdd4/lpz/Qwen-Image-2.1",
+    "pipeline": "QwenImage21Pipeline",
+    "architecture": "7B single-stream DiT, Qwen3-VL text encoder, FlowMatchEulerDiscreteScheduler, VAE",
+    "dtype": "bfloat16",
+    "steps": 8,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image; also supports editing/RGBA but those are excluded here"
+  },
+  "scenario": {
+    "id": "prior_medium",
+    "factor": "compositional_prior",
+    "level": "medium",
+    "control_group": "prior",
+    "prompt": "A realistic photograph of a person sitting on a wooden chair beside a dog and a bicycle in a park; all three subjects are distinct and visible.",
+    "objects": [
+      {
+        "class": "person",
+        "count": 1
+      },
+      {
+        "class": "chair",
+        "count": 1
+      },
+      {
+        "class": "dog",
+        "count": 1
+      },
+      {
+        "class": "bicycle",
+        "count": 1
+      }
+    ],
+    "relations": [
+      {
+        "a": "person",
+        "relation": "sitting_on",
+        "b": "chair"
+      },
+      {
+        "a": "dog",
+        "relation": "beside",
+        "b": "chair"
+      },
+      {
+        "a": "bicycle",
+        "relation": "beside",
+        "b": "chair"
+      }
+    ]
+  },
+  "seed": 2,
+  "prompt": "A realistic photograph of a person sitting on a wooden chair beside a dog and a bicycle in a park; all three subjects are distinct and visible.",
+  "call_kwargs": {
+    "prompt": "A realistic photograph of a person sitting on a wooden chair beside a dog and a bicycle in a park; all three subjects are distinct and visible.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x7bb0d319fd30>",
+    "output_resolution": 512,
+    "num_inference_steps": 8,
+    "true_cfg_scale": 1.0,
+    "use_kv_cache": true
+  },
+  "elapsed_seconds": 27.665,
+  "image_sha256": "b23009f90aa345ae4260d74681285e41b46cb6cf43e37a4a303947eebb5709cc",
+  "created_utc": "2026-11-12T07:35:38Z"
+}

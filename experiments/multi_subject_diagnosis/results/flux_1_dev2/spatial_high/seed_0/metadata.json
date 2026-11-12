@@ -1,0 +1,82 @@
+{
+  "model_id": "flux_1_dev2",
+  "model": {
+    "path": "/home/hdd4/lpz/FLUX.1-dev2",
+    "pipeline": "FluxPipeline",
+    "architecture": "12B rectified-flow transformer, CLIP + T5 text encoders, AutoencoderKL",
+    "dtype": "bfloat16",
+    "steps": 8,
+    "guidance": 3.5,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image"
+  },
+  "scenario": {
+    "id": "spatial_high",
+    "factor": "spatial_relations",
+    "level": "high",
+    "control_group": "spatial",
+    "prompt": "A clean studio photograph: a red apple is left of a blue cup; a yellow book is above the cup; a green bicycle is behind a brown chair; all five named objects remain distinct and fully visible with no swapped relations.",
+    "objects": [
+      {
+        "class": "apple",
+        "count": 1,
+        "color": "red"
+      },
+      {
+        "class": "cup",
+        "count": 1,
+        "color": "blue"
+      },
+      {
+        "class": "book",
+        "count": 1,
+        "color": "yellow"
+      },
+      {
+        "class": "bicycle",
+        "count": 1,
+        "color": "green"
+      },
+      {
+        "class": "chair",
+        "count": 1,
+        "color": "brown"
+      }
+    ],
+    "relations": [
+      {
+        "a": "apple",
+        "relation": "left_of",
+        "b": "cup"
+      },
+      {
+        "a": "book",
+        "relation": "above",
+        "b": "cup"
+      },
+      {
+        "a": "bicycle",
+        "relation": "behind",
+        "b": "chair"
+      }
+    ]
+  },
+  "seed": 0,
+  "prompt": "A clean studio photograph: a red apple is left of a blue cup; a yellow book is above the cup; a green bicycle is behind a brown chair; all five named objects remain distinct and fully visible with no swapped relations.",
+  "call_kwargs": {
+    "prompt": "A clean studio photograph: a red apple is left of a blue cup; a yellow book is above the cup; a green bicycle is behind a brown chair; all five named objects remain distinct and fully visible with no swapped relations.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x7112786ab070>",
+    "num_inference_steps": 8,
+    "guidance_scale": 3.5,
+    "max_sequence_length": 256
+  },
+  "elapsed_seconds": 33.618,
+  "image_sha256": "0899ec7517a4a0a84f625f9ac94febc12dca58dc17582b74230166988bfb16bf",
+  "created_utc": "2026-11-12T08:28:42Z"
+}

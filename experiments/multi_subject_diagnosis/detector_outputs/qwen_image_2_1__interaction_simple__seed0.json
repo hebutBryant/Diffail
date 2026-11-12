@@ -1,0 +1,21 @@
+{
+  "image": "/home/lipz/Diffail/experiments/multi_subject_diagnosis/results/qwen_image_2_1/interaction_simple/seed_0/image.png",
+  "detections": [
+    [
+      0.11273193359375,
+      1.139617919921875,
+      457.99798583984375,
+      485.8861999511719,
+      0.9135317802429199,
+      "umbrella"
+    ],
+    [
+      104.90315246582031,
+      209.01329040527344,
+      415.75469970703125,
+      511.468017578125,
+      0.8804377913475037,
+      "person"
+    ]
+  ]
+}

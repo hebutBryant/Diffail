@@ -1,0 +1,57 @@
+{
+  "model_id": "qwen_image_2_1",
+  "model": {
+    "path": "/home/hdd4/lpz/Qwen-Image-2.1",
+    "pipeline": "QwenImage21Pipeline",
+    "architecture": "7B single-stream DiT, Qwen3-VL text encoder, FlowMatchEulerDiscreteScheduler, VAE",
+    "dtype": "bfloat16",
+    "steps": 8,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image; also supports editing/RGBA but those are excluded here"
+  },
+  "scenario": {
+    "id": "density_medium",
+    "factor": "scene_density",
+    "level": "medium",
+    "control_group": "density",
+    "prompt": "A clean studio photograph of a red apple, a blue cup, and a green book placed close together on a small white table with slight natural overlap, while each object remains individually recognizable.",
+    "objects": [
+      {
+        "class": "apple",
+        "count": 1,
+        "color": "red"
+      },
+      {
+        "class": "cup",
+        "count": 1,
+        "color": "blue"
+      },
+      {
+        "class": "book",
+        "count": 1,
+        "color": "green"
+      }
+    ],
+    "relations": []
+  },
+  "seed": 0,
+  "prompt": "A clean studio photograph of a red apple, a blue cup, and a green book placed close together on a small white table with slight natural overlap, while each object remains individually recognizable.",
+  "call_kwargs": {
+    "prompt": "A clean studio photograph of a red apple, a blue cup, and a green book placed close together on a small white table with slight natural overlap, while each object remains individually recognizable.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x7bb0d30a4d10>",
+    "output_resolution": 512,
+    "num_inference_steps": 8,
+    "true_cfg_scale": 1.0,
+    "use_kv_cache": true
+  },
+  "elapsed_seconds": 30.126,
+  "image_sha256": "80269cdc3a9800243f359942ce9cc39fb74eef90ba2fdbccc6fb8ea91d0d03f6",
+  "created_utc": "2026-11-12T07:39:03Z"
+}

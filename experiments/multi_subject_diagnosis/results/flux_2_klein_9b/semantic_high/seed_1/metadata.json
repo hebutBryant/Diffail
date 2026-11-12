@@ -1,0 +1,68 @@
+{
+  "model_id": "flux_2_klein_9b",
+  "model": {
+    "path": "/home/hdd4/lpz/FLUX.2-klein-9B",
+    "requested_path": "/home/hdd4/lpz/FLUX.2-klein",
+    "pipeline": "Flux2KleinPipeline",
+    "architecture": "9B distilled rectified-flow transformer, Qwen3 causal text encoder, AutoencoderKLFlux2",
+    "dtype": "bfloat16",
+    "steps": 4,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image and image-to-image/multi-reference editing",
+    "note": "Requested directory was absent; this complete local FLUX.2-klein-9B directory is used as a same-family fallback."
+  },
+  "scenario": {
+    "id": "semantic_high",
+    "factor": "semantic_complexity",
+    "level": "high",
+    "control_group": "semantic",
+    "prompt": "A high-detail studio scene contains three items: the object that is red is an apple, the blue vessel is a cup, and the yellow reading material is a book; the apple must remain to the cup's left while the book is above the cup, with no relation swapped.",
+    "objects": [
+      {
+        "class": "apple",
+        "count": 1,
+        "color": "red"
+      },
+      {
+        "class": "cup",
+        "count": 1,
+        "color": "blue"
+      },
+      {
+        "class": "book",
+        "count": 1,
+        "color": "yellow"
+      }
+    ],
+    "relations": [
+      {
+        "a": "apple",
+        "relation": "left_of",
+        "b": "cup"
+      },
+      {
+        "a": "book",
+        "relation": "above",
+        "b": "cup"
+      }
+    ]
+  },
+  "seed": 1,
+  "prompt": "A high-detail studio scene contains three items: the object that is red is an apple, the blue vessel is a cup, and the yellow reading material is a book; the apple must remain to the cup's left while the book is above the cup, with no relation swapped.",
+  "call_kwargs": {
+    "prompt": "A high-detail studio scene contains three items: the object that is red is an apple, the blue vessel is a cup, and the yellow reading material is a book; the apple must remain to the cup's left while the book is above the cup, with no relation swapped.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x755beef095d0>",
+    "num_inference_steps": 4,
+    "guidance_scale": 1.0
+  },
+  "elapsed_seconds": 30.666,
+  "image_sha256": "d70729f66309acc6aac89865de65f7b1098ddf8a2ae927bc7b70088716299f94",
+  "created_utc": "2026-11-12T08:14:44Z"
+}

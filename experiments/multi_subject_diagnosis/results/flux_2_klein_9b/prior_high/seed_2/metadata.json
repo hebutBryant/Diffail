@@ -1,0 +1,78 @@
+{
+  "model_id": "flux_2_klein_9b",
+  "model": {
+    "path": "/home/hdd4/lpz/FLUX.2-klein-9B",
+    "requested_path": "/home/hdd4/lpz/FLUX.2-klein",
+    "pipeline": "Flux2KleinPipeline",
+    "architecture": "9B distilled rectified-flow transformer, Qwen3 causal text encoder, AutoencoderKLFlux2",
+    "dtype": "bfloat16",
+    "steps": 4,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image and image-to-image/multi-reference editing",
+    "note": "Requested directory was absent; this complete local FLUX.2-klein-9B directory is used as a same-family fallback."
+  },
+  "scenario": {
+    "id": "prior_high",
+    "factor": "compositional_prior",
+    "level": "high",
+    "control_group": "prior",
+    "prompt": "A surreal but physically coherent photograph of a teddy bear riding a bicycle while a cat sits on a skateboard beside it and a bird perches on the bicycle handlebar; every animal, vehicle, and board is separate and visible.",
+    "objects": [
+      {
+        "class": "teddy bear",
+        "count": 1
+      },
+      {
+        "class": "bicycle",
+        "count": 1
+      },
+      {
+        "class": "cat",
+        "count": 1
+      },
+      {
+        "class": "skateboard",
+        "count": 1
+      },
+      {
+        "class": "bird",
+        "count": 1
+      }
+    ],
+    "relations": [
+      {
+        "a": "teddy bear",
+        "relation": "riding",
+        "b": "bicycle"
+      },
+      {
+        "a": "cat",
+        "relation": "sitting_on",
+        "b": "skateboard"
+      },
+      {
+        "a": "bird",
+        "relation": "on",
+        "b": "bicycle"
+      }
+    ]
+  },
+  "seed": 2,
+  "prompt": "A surreal but physically coherent photograph of a teddy bear riding a bicycle while a cat sits on a skateboard beside it and a bird perches on the bicycle handlebar; every animal, vehicle, and board is separate and visible.",
+  "call_kwargs": {
+    "prompt": "A surreal but physically coherent photograph of a teddy bear riding a bicycle while a cat sits on a skateboard beside it and a bird perches on the bicycle handlebar; every animal, vehicle, and board is separate and visible.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x755b1ab3a7d0>",
+    "num_inference_steps": 4,
+    "guidance_scale": 1.0
+  },
+  "elapsed_seconds": 34.067,
+  "image_sha256": "e46058a0ee295cf358befd1308d54f0b536ec5de8bce07e8d9588c723dbfc973",
+  "created_utc": "2026-11-12T08:06:00Z"
+}

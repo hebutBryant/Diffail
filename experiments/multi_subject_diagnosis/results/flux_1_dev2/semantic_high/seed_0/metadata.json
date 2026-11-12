@@ -1,0 +1,67 @@
+{
+  "model_id": "flux_1_dev2",
+  "model": {
+    "path": "/home/hdd4/lpz/FLUX.1-dev2",
+    "pipeline": "FluxPipeline",
+    "architecture": "12B rectified-flow transformer, CLIP + T5 text encoders, AutoencoderKL",
+    "dtype": "bfloat16",
+    "steps": 8,
+    "guidance": 3.5,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image"
+  },
+  "scenario": {
+    "id": "semantic_high",
+    "factor": "semantic_complexity",
+    "level": "high",
+    "control_group": "semantic",
+    "prompt": "A high-detail studio scene contains three items: the object that is red is an apple, the blue vessel is a cup, and the yellow reading material is a book; the apple must remain to the cup's left while the book is above the cup, with no relation swapped.",
+    "objects": [
+      {
+        "class": "apple",
+        "count": 1,
+        "color": "red"
+      },
+      {
+        "class": "cup",
+        "count": 1,
+        "color": "blue"
+      },
+      {
+        "class": "book",
+        "count": 1,
+        "color": "yellow"
+      }
+    ],
+    "relations": [
+      {
+        "a": "apple",
+        "relation": "left_of",
+        "b": "cup"
+      },
+      {
+        "a": "book",
+        "relation": "above",
+        "b": "cup"
+      }
+    ]
+  },
+  "seed": 0,
+  "prompt": "A high-detail studio scene contains three items: the object that is red is an apple, the blue vessel is a cup, and the yellow reading material is a book; the apple must remain to the cup's left while the book is above the cup, with no relation swapped.",
+  "call_kwargs": {
+    "prompt": "A high-detail studio scene contains three items: the object that is red is an apple, the blue vessel is a cup, and the yellow reading material is a book; the apple must remain to the cup's left while the book is above the cup, with no relation swapped.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x7112786ab070>",
+    "num_inference_steps": 8,
+    "guidance_scale": 3.5,
+    "max_sequence_length": 256
+  },
+  "elapsed_seconds": 34.87,
+  "image_sha256": "1c5e2956036b5fce7dca8018d3c025648620e7e9fa67691c8336a59ad7d8c741",
+  "created_utc": "2026-11-12T08:31:00Z"
+}

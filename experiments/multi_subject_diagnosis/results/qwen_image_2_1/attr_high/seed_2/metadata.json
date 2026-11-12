@@ -1,0 +1,67 @@
+{
+  "model_id": "qwen_image_2_1",
+  "model": {
+    "path": "/home/hdd4/lpz/Qwen-Image-2.1",
+    "pipeline": "QwenImage21Pipeline",
+    "architecture": "7B single-stream DiT, Qwen3-VL text encoder, FlowMatchEulerDiscreteScheduler, VAE",
+    "dtype": "bfloat16",
+    "steps": 8,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image; also supports editing/RGBA but those are excluded here"
+  },
+  "scenario": {
+    "id": "attr_high",
+    "factor": "attribute_binding",
+    "level": "high",
+    "control_group": "attribute",
+    "prompt": "A clean studio photograph of one red apple, one blue banana, one green backpack, one yellow umbrella, and one purple bicycle, all separate and fully visible; preserve every object-color assignment exactly and do not transfer colors between objects.",
+    "objects": [
+      {
+        "class": "apple",
+        "count": 1,
+        "color": "red"
+      },
+      {
+        "class": "banana",
+        "count": 1,
+        "color": "blue"
+      },
+      {
+        "class": "backpack",
+        "count": 1,
+        "color": "green"
+      },
+      {
+        "class": "umbrella",
+        "count": 1,
+        "color": "yellow"
+      },
+      {
+        "class": "bicycle",
+        "count": 1,
+        "color": "purple"
+      }
+    ],
+    "relations": []
+  },
+  "seed": 2,
+  "prompt": "A clean studio photograph of one red apple, one blue banana, one green backpack, one yellow umbrella, and one purple bicycle, all separate and fully visible; preserve every object-color assignment exactly and do not transfer colors between objects.",
+  "call_kwargs": {
+    "prompt": "A clean studio photograph of one red apple, one blue banana, one green backpack, one yellow umbrella, and one purple bicycle, all separate and fully visible; preserve every object-color assignment exactly and do not transfer colors between objects.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x7bb0d30a4d10>",
+    "output_resolution": 512,
+    "num_inference_steps": 8,
+    "true_cfg_scale": 1.0,
+    "use_kv_cache": true
+  },
+  "elapsed_seconds": 26.354,
+  "image_sha256": "e0d11df0c8b073d0a9578597bed77db18247611ba43b4b06baf5760f1403ec69",
+  "created_utc": "2026-11-12T07:24:37Z"
+}

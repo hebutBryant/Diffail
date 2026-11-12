@@ -1,0 +1,77 @@
+{
+  "model_id": "flux_1_dev2",
+  "model": {
+    "path": "/home/hdd4/lpz/FLUX.1-dev2",
+    "pipeline": "FluxPipeline",
+    "architecture": "12B rectified-flow transformer, CLIP + T5 text encoders, AutoencoderKL",
+    "dtype": "bfloat16",
+    "steps": 8,
+    "guidance": 3.5,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image"
+  },
+  "scenario": {
+    "id": "prior_high",
+    "factor": "compositional_prior",
+    "level": "high",
+    "control_group": "prior",
+    "prompt": "A surreal but physically coherent photograph of a teddy bear riding a bicycle while a cat sits on a skateboard beside it and a bird perches on the bicycle handlebar; every animal, vehicle, and board is separate and visible.",
+    "objects": [
+      {
+        "class": "teddy bear",
+        "count": 1
+      },
+      {
+        "class": "bicycle",
+        "count": 1
+      },
+      {
+        "class": "cat",
+        "count": 1
+      },
+      {
+        "class": "skateboard",
+        "count": 1
+      },
+      {
+        "class": "bird",
+        "count": 1
+      }
+    ],
+    "relations": [
+      {
+        "a": "teddy bear",
+        "relation": "riding",
+        "b": "bicycle"
+      },
+      {
+        "a": "cat",
+        "relation": "sitting_on",
+        "b": "skateboard"
+      },
+      {
+        "a": "bird",
+        "relation": "on",
+        "b": "bicycle"
+      }
+    ]
+  },
+  "seed": 0,
+  "prompt": "A surreal but physically coherent photograph of a teddy bear riding a bicycle while a cat sits on a skateboard beside it and a bird perches on the bicycle handlebar; every animal, vehicle, and board is separate and visible.",
+  "call_kwargs": {
+    "prompt": "A surreal but physically coherent photograph of a teddy bear riding a bicycle while a cat sits on a skateboard beside it and a bird perches on the bicycle handlebar; every animal, vehicle, and board is separate and visible.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x7112786ab070>",
+    "num_inference_steps": 8,
+    "guidance_scale": 3.5,
+    "max_sequence_length": 256
+  },
+  "elapsed_seconds": 32.872,
+  "image_sha256": "feb9e94fdb723e67019fdacd4eb0af5148c472ad22ad90259530aebd9f71ede8",
+  "created_utc": "2026-11-12T08:29:49Z"
+}

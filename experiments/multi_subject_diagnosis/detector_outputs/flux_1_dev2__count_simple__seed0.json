@@ -1,0 +1,13 @@
+{
+  "image": "/home/lipz/Diffail/experiments/multi_subject_diagnosis/results/flux_1_dev2/count_simple/seed_0/image.png",
+  "detections": [
+    [
+      122.09512329101562,
+      163.93936157226562,
+      391.3440246582031,
+      435.2235412597656,
+      0.24866433441638947,
+      "cup"
+    ]
+  ]
+}

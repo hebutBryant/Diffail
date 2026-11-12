@@ -1,0 +1,57 @@
+{
+  "model_id": "flux_2_klein_9b",
+  "model": {
+    "path": "/home/hdd4/lpz/FLUX.2-klein-9B",
+    "requested_path": "/home/hdd4/lpz/FLUX.2-klein",
+    "pipeline": "Flux2KleinPipeline",
+    "architecture": "9B distilled rectified-flow transformer, Qwen3 causal text encoder, AutoencoderKLFlux2",
+    "dtype": "bfloat16",
+    "steps": 4,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image and image-to-image/multi-reference editing",
+    "note": "Requested directory was absent; this complete local FLUX.2-klein-9B directory is used as a same-family fallback."
+  },
+  "scenario": {
+    "id": "density_simple",
+    "factor": "scene_density",
+    "level": "simple",
+    "control_group": "density",
+    "prompt": "A clean studio photograph of a red apple, a blue cup, and a green book widely spaced across a large white table, with no overlap and clear gaps between them.",
+    "objects": [
+      {
+        "class": "apple",
+        "count": 1,
+        "color": "red"
+      },
+      {
+        "class": "cup",
+        "count": 1,
+        "color": "blue"
+      },
+      {
+        "class": "book",
+        "count": 1,
+        "color": "green"
+      }
+    ],
+    "relations": []
+  },
+  "seed": 2,
+  "prompt": "A clean studio photograph of a red apple, a blue cup, and a green book widely spaced across a large white table, with no overlap and clear gaps between them.",
+  "call_kwargs": {
+    "prompt": "A clean studio photograph of a red apple, a blue cup, and a green book widely spaced across a large white table, with no overlap and clear gaps between them.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x755beef095d0>",
+    "num_inference_steps": 4,
+    "guidance_scale": 1.0
+  },
+  "elapsed_seconds": 31.453,
+  "image_sha256": "7f34d53cba5f8caee5ca1f9c0424069111089a9351c7dd8508476f0d99c5f35b",
+  "created_utc": "2026-11-12T08:07:36Z"
+}

@@ -1,0 +1,83 @@
+{
+  "model_id": "qwen_image_2_1",
+  "model": {
+    "path": "/home/hdd4/lpz/Qwen-Image-2.1",
+    "pipeline": "QwenImage21Pipeline",
+    "architecture": "7B single-stream DiT, Qwen3-VL text encoder, FlowMatchEulerDiscreteScheduler, VAE",
+    "dtype": "bfloat16",
+    "steps": 8,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image; also supports editing/RGBA but those are excluded here"
+  },
+  "scenario": {
+    "id": "spatial_high",
+    "factor": "spatial_relations",
+    "level": "high",
+    "control_group": "spatial",
+    "prompt": "A clean studio photograph: a red apple is left of a blue cup; a yellow book is above the cup; a green bicycle is behind a brown chair; all five named objects remain distinct and fully visible with no swapped relations.",
+    "objects": [
+      {
+        "class": "apple",
+        "count": 1,
+        "color": "red"
+      },
+      {
+        "class": "cup",
+        "count": 1,
+        "color": "blue"
+      },
+      {
+        "class": "book",
+        "count": 1,
+        "color": "yellow"
+      },
+      {
+        "class": "bicycle",
+        "count": 1,
+        "color": "green"
+      },
+      {
+        "class": "chair",
+        "count": 1,
+        "color": "brown"
+      }
+    ],
+    "relations": [
+      {
+        "a": "apple",
+        "relation": "left_of",
+        "b": "cup"
+      },
+      {
+        "a": "book",
+        "relation": "above",
+        "b": "cup"
+      },
+      {
+        "a": "bicycle",
+        "relation": "behind",
+        "b": "chair"
+      }
+    ]
+  },
+  "seed": 1,
+  "prompt": "A clean studio photograph: a red apple is left of a blue cup; a yellow book is above the cup; a green bicycle is behind a brown chair; all five named objects remain distinct and fully visible with no swapped relations.",
+  "call_kwargs": {
+    "prompt": "A clean studio photograph: a red apple is left of a blue cup; a yellow book is above the cup; a green bicycle is behind a brown chair; all five named objects remain distinct and fully visible with no swapped relations.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x7bb0d30a4d10>",
+    "output_resolution": 512,
+    "num_inference_steps": 8,
+    "true_cfg_scale": 1.0,
+    "use_kv_cache": true
+  },
+  "elapsed_seconds": 26.451,
+  "image_sha256": "845b2b8c21190c467f2e8d8c7e5eff3fb92b78e6394c39ac04c9e09c999b86b6",
+  "created_utc": "2026-11-12T07:28:10Z"
+}

@@ -1,0 +1,35 @@
+{
+  "scene": {
+    "time": "early morning",
+    "location": "bustling traditional wet market",
+    "lighting": "sunlight filtered through blue-and-green striped awnings",
+    "ground": "damp stone-paved floor"
+  },
+  "entities": [
+    {"id":"vendor","type":"middle-aged female vendor","attributes":["yellow apron"],"location":"center, behind vegetable stall"},
+    {"id":"stall","type":"vegetable stall","attributes":[],"location":"center"},
+    {"id":"tomato_bag","type":"plastic bag of tomatoes","attributes":["bag","tomatoes"],"owner":"vendor","recipient":"young_woman"},
+    {"id":"young_woman","type":"young woman","attributes":["blue jacket","bamboo basket"],"location":"center, in front of stall"},
+    {"id":"young_woman_left_hand","type":"left hand","owner":"young_woman","action":"reaches to take tomato bag"},
+    {"id":"young_woman_right_hand","type":"right hand","owner":"young_woman","action":"holds red apple"},
+    {"id":"red_apple","type":"apple","attributes":["red"],"owner":"young_woman"},
+    {"id":"elderly_man","type":"elderly man","attributes":["gray hat","dark green jacket"],"location":"left of stall"},
+    {"id":"eggplants","type":"eggplants","attributes":["purple"],"action":"selected by elderly_man"},
+    {"id":"boy","type":"young boy","attributes":["red backpack","standing on tiptoe"],"location":"near stall"},
+    {"id":"bananas","type":"bunch of bananas","attributes":["yellow"],"location":"hanging above display"},
+    {"id":"awnings","type":"market awnings","attributes":["blue-and-green striped"]}
+  ],
+  "relations": [
+    ["vendor","behind","stall"], ["vendor","hands","tomato_bag"], ["tomato_bag","toward","young_woman"],
+    ["young_woman_left_hand","takes","tomato_bag"], ["young_woman_right_hand","holds","red_apple"],
+    ["elderly_man","left_of","stall"], ["elderly_man","selects","eggplants"],
+    ["boy","points_toward","bananas"], ["bananas","above","display"], ["awnings","above","scene"]
+  ],
+  "joint_constraints": [
+    "vendor gender/age/apron must remain distinct from young woman's blue jacket",
+    "tomato bag must be visibly transferred between vendor and woman's left hand",
+    "red apple must be in woman's right hand, not the bag hand",
+    "elderly man must be separate from vendor and visibly interact with purple eggplants",
+    "boy's pointing direction must target hanging bananas"
+  ]
+}

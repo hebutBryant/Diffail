@@ -1,0 +1,68 @@
+{
+  "model_id": "flux_2_klein_9b",
+  "model": {
+    "path": "/home/hdd4/lpz/FLUX.2-klein-9B",
+    "requested_path": "/home/hdd4/lpz/FLUX.2-klein",
+    "pipeline": "Flux2KleinPipeline",
+    "architecture": "9B distilled rectified-flow transformer, Qwen3 causal text encoder, AutoencoderKLFlux2",
+    "dtype": "bfloat16",
+    "steps": 4,
+    "guidance": 1.0,
+    "cpu_offload": true,
+    "resolution": [
+      512,
+      512
+    ],
+    "mode": "text-to-image and image-to-image/multi-reference editing",
+    "note": "Requested directory was absent; this complete local FLUX.2-klein-9B directory is used as a same-family fallback."
+  },
+  "scenario": {
+    "id": "semantic_medium",
+    "factor": "semantic_complexity",
+    "level": "medium",
+    "control_group": "semantic",
+    "prompt": "In a clean studio photograph, place the blue cup to the right of the red apple, with the yellow book directly above that same cup; keep each named item separate and fully visible.",
+    "objects": [
+      {
+        "class": "apple",
+        "count": 1,
+        "color": "red"
+      },
+      {
+        "class": "cup",
+        "count": 1,
+        "color": "blue"
+      },
+      {
+        "class": "book",
+        "count": 1,
+        "color": "yellow"
+      }
+    ],
+    "relations": [
+      {
+        "a": "apple",
+        "relation": "left_of",
+        "b": "cup"
+      },
+      {
+        "a": "book",
+        "relation": "above",
+        "b": "cup"
+      }
+    ]
+  },
+  "seed": 2,
+  "prompt": "In a clean studio photograph, place the blue cup to the right of the red apple, with the yellow book directly above that same cup; keep each named item separate and fully visible.",
+  "call_kwargs": {
+    "prompt": "In a clean studio photograph, place the blue cup to the right of the red apple, with the yellow book directly above that same cup; keep each named item separate and fully visible.",
+    "width": 512,
+    "height": 512,
+    "generator": "<torch._C.Generator object at 0x755beef095d0>",
+    "num_inference_steps": 4,
+    "guidance_scale": 1.0
+  },
+  "elapsed_seconds": 32.523,
+  "image_sha256": "b81124da3ab26408cd6b7635a5a1a49b68f5dcebcca8a2ab99a0aa0594e8f8e8",
+  "created_utc": "2026-11-12T08:13:42Z"
+}
